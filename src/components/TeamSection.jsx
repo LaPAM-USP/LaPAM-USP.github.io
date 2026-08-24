@@ -36,8 +36,8 @@ export default function TeamSection({ lang }) {
 
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
             {lang === 'pt'
-              ? 'Pesquisadores, pós-graduandos e mestrandos do LaPAM no ICB II - USP.'
-              : 'Principal investigator, PhD candidate, and Master\'s students at LaPAM (ICB II - USP).'}
+              ? 'Conheça o time do LaPAM.'
+              : "Meet LaPAM's team."}
           </p>
         </div>
 
