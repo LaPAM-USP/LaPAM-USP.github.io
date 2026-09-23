@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import BioCanvas from './components/BioCanvas';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import BrSeqTBSection from './components/BrSeqTBSection';
+import MtbRxSection from './components/MtbRxSection';
 import ResearchSection from './components/ResearchSection';
 import TeamSection from './components/TeamSection';
 import FacilitiesSection from './components/FacilitiesSection';
@@ -10,8 +11,29 @@ import PublicationsSection from './components/PublicationsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
+const LANG_KEY = 'lapam-lang';
+
+// Manual choice wins; otherwise PT only when the browser's primary language is pt-BR.
+function detectLang() {
+  try {
+    const saved = localStorage.getItem(LANG_KEY);
+    if (saved === 'pt' || saved === 'en') return saved;
+  } catch {}
+  const primary = (navigator.languages?.[0] || navigator.language || '').toLowerCase();
+  return primary === 'pt-br' ? 'pt' : 'en';
+}
+
 export default function App() {
-  const [lang, setLang] = useState('pt'); // 'pt' or 'en'
+  const [lang, setLangState] = useState(detectLang); // 'pt' or 'en'
+
+  const setLang = (next) => {
+    setLangState(next);
+    try { localStorage.setItem(LANG_KEY, next); } catch {}
+  };
+
+  useEffect(() => {
+    document.documentElement.lang = lang === 'pt' ? 'pt-BR' : 'en';
+  }, [lang]);
 
   return (
     <div className="relative min-h-screen bg-white text-slate-800 font-sans selection:bg-teal-100 selection:text-teal-900 overflow-x-hidden">
@@ -31,6 +53,10 @@ export default function App() {
           />
 
           <BrSeqTBSection
+            lang={lang}
+          />
+
+          <MtbRxSection
             lang={lang}
           />
 

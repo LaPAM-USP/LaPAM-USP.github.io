@@ -1,0 +1,957 @@
+{
+  "source": "openalex",
+  "orcid": "0000-0002-8261-5863",
+  "updatedAt": "2026-09-23T21:20:23.624Z",
+  "publications": [
+    {
+      "doi": "10.1016/j.onehlt.2026.101463",
+      "title": "Zoonotic tuberculosis: When diagnostic and surveillance systems are not designed to detect it",
+      "authors": "Ana Marcia Sá Guimarães, Kevim Bordignon Guterres, Maria Clara da Silva Galrão Cunha, Érica Chimara, Maria de Lourdes Viude de Oliveira, Flábio Araújo",
+      "journal": "One Health",
+      "year": 2026,
+      "date": "2026-06-01",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.onehlt.2026.101463"
+    },
+    {
+      "doi": "10.1016/j.onehlt.2026.101356",
+      "title": "Discrimination between Mycobacterium tuberculosis and Mycobacterium bovis using Fourier transform infrared spectroscopy",
+      "authors": "Kevim Bordignon Guterres, Taiana Tainá Silva‐Pereira, Rodrigo Gonçalves Ramos de Oliveira, Carolyn G. J. Moonen, Marcos Bryan Heinemann, Flábio Araújo, et al.",
+      "journal": "One Health",
+      "year": 2026,
+      "date": "2026-02-14",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.onehlt.2026.101356"
+    },
+    {
+      "doi": "10.1099/mgen.0.001646",
+      "title": "Whole-genome sequencing reveals genetic diversity and transmission dynamics of Mycobacterium bovis in South African wildlife",
+      "authors": "Abisola Okunola, Johannes Loubser, Giovanni Ghielmetti, Rachiel Gumbo, Elizabeth M. Streicher, Pamela Ncube, et al.",
+      "journal": "Microbial Genomics",
+      "year": 2026,
+      "date": "2026-02-10",
+      "type": "article",
+      "url": "https://doi.org/10.1099/mgen.0.001646"
+    },
+    {
+      "doi": "10.1590/1980-220x-reeusp-2025-0222en",
+      "title": "Tuberculosis in the South America’s homeless: a systematic review of social determinants, control strategies and health equity",
+      "authors": "Eliza Miranda Ramos, Carolina Braga Sisti, Sérgio Beltrão de Andrade Lima, Emerson Luiz Lima Araújo, Lúcia Dias da Silva Guerra, Claudia Polubriaginof, et al.",
+      "journal": "Revista da Escola de Enfermagem da USP",
+      "year": 2026,
+      "date": "2026-01-01",
+      "type": "review",
+      "url": "https://doi.org/10.1590/1980-220x-reeusp-2025-0222en"
+    },
+    {
+      "doi": "10.1590/1980-220x-reeusp-2025-0222es",
+      "title": "Tuberculosis en personas sin hogar de América del Sur: una revisión sistemática de determinantes sociales, estrategias de control y equidad en salud",
+      "authors": "Eliza Miranda Ramos, Carolina Braga Sisti, Sérgio Beltrão de Andrade Lima, Emerson Luiz Lima Araújo, Lúcia Dias da Silva Guerra, Claudia Polubriaginof, et al.",
+      "journal": "Revista da Escola de Enfermagem da USP",
+      "year": 2026,
+      "date": "2026-01-01",
+      "type": "article",
+      "url": "https://doi.org/10.1590/1980-220x-reeusp-2025-0222es"
+    },
+    {
+      "doi": "10.1136/bmjopen-2025-098861",
+      "title": "Impact of drug-resistance diagnosis based on whole-genome sequencing on the treatment adequacy of patients with drug-resistant pulmonary tuberculosis in the state of São Paulo, Brazil: a protocol for a non-randomised controlled trial (Gen-TB PróCura)",
+      "authors": "Claudio Damião Rosa, Lucilaine Ferrazoli, Debora Pereira dos Santos, Carolina Salgado Pedace, Naila Cristina Soler-Camargo, Taiana Tainá Silva‐Pereira, et al.",
+      "journal": "BMJ Open",
+      "year": 2025,
+      "date": "2025-11-01",
+      "type": "article",
+      "url": "https://doi.org/10.1136/bmjopen-2025-098861"
+    },
+    {
+      "doi": "10.1093/jimmun/vkaf283.2798",
+      "title": "Enhancing lung immunity against COVID-19: the role of ATP in TRM cell generation 9389",
+      "authors": "Marcos Vinícios Pinheiro Cione, Igor Santiago-Carvalho, Luciana dos Santos Barros Manhaes, Rodrigo J.R.X. Freitas, Rogério Silva do Nascimento, Viviane Fongaro Botosso, et al.",
+      "journal": "The Journal of Immunology",
+      "year": 2025,
+      "date": "2025-11-01",
+      "type": "article",
+      "url": "https://doi.org/10.1093/jimmun/vkaf283.2798"
+    },
+    {
+      "doi": "10.1038/s41598-025-17691-x",
+      "title": "Analysis of the prevalence, spread, and mutation patterns of SARS-CoV-2 variants: data from COVID-19 testing expansion strategy study in salvador, Northeast Brazil",
+      "authors": "Anna Carolina Saúde Dantas, Hellen Braga Martins Oliveira, Taiana Tainá Silva Pereira, Alan Ferreira Leite de Lima, Leonardo S. Santos, J. Matos, et al.",
+      "journal": "Scientific Reports",
+      "year": 2025,
+      "date": "2025-08-29",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41598-025-17691-x"
+    },
+    {
+      "doi": "10.1016/j.micinf.2025.105503",
+      "title": "Comparative pathoadaptation of Mycobacterium canettii and Mycobacterium tuberculosis: Insights from assays on phagosome acidification, cytosolic access, and transcriptomics",
+      "authors": "Camila do Nascimento Araujo, Felipe Silva, Cristina Kraemer Zimpel, Taiana Tainá Silva-Pereira, Naila Camargo, Filipe Menegatti de Melo, et al.",
+      "journal": "Microbes and Infection",
+      "year": 2025,
+      "date": "2025-04-15",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.micinf.2025.105503"
+    },
+    {
+      "doi": "",
+      "title": "BrasSeqTB: pipeline Genômica para a Detecção de Tuberculose Resistente no Brasil",
+      "authors": "Naila Camargo, Taiana Tainá Silva Pereira, Débora Guedes Oliveira Santos, Angela Pires Brandão, Cláudio Tavares Sacchi, Karoline Rodrigues Campos, et al.",
+      "journal": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+      "year": 2024,
+      "date": "2024-11-03",
+      "type": "article",
+      "url": "https://periodicos.saude.sp.gov.br/RIAL/article/view/41306"
+    },
+    {
+      "doi": "",
+      "title": "Espectroscopia de infravermelho (IR Biotyper®) na discriminação de ecotipos do complexo Mycobacterium tuberculosis (MTBC)",
+      "authors": "Kevim Bordignon Guterres, Taiana Tainá Silva Pereira, Rodrigo Gonçalves Ramos de Oliveira, Ana Marcia Sá Guimarães",
+      "journal": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+      "year": 2024,
+      "date": "2024-11-03",
+      "type": "article",
+      "url": "https://periodicos.saude.sp.gov.br/RIAL/article/view/41351"
+    },
+    {
+      "doi": "10.3201/eid3011.240549",
+      "title": "Clinical and Molecular Characterization of Human Burkholderia mallei Infection, Brazil",
+      "authors": "Kléber Giovanni Luz, Fernanda R.O. Bezerra, Miguel A. Sicolo, Ana Raísa Pereira Silva, Andréa  Alves do Egito, Paula Adas Pereira Suniga, et al.",
+      "journal": "Emerging infectious diseases",
+      "year": 2024,
+      "date": "2024-10-23",
+      "type": "article",
+      "url": "https://doi.org/10.3201/eid3011.240549"
+    },
+    {
+      "doi": "10.1016/j.vetmic.2024.110158",
+      "title": "Comparative genomic analysis of Brazilian Mesomycoplasma ovipneumoniae strains revealed genomic differences associated with the geographic origin and health status and mutations in the gyrA",
+      "authors": "Natália Carrillo Gaeta, Ana M. S. Guimarães, Jorge Timenetsky, Stephanie Clouser, Lílian Gregory, Erika Ganda",
+      "journal": "Veterinary Microbiology",
+      "year": 2024,
+      "date": "2024-06-21",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.vetmic.2024.110158"
+    },
+    {
+      "doi": "10.1016/j.lana.2024.100765",
+      "title": "The impact of the SARS-CoV-2 pandemic on tuberculosis notifications and deaths in the state of São Paulo, Brazil: a cross-sectional study",
+      "authors": "Marina Cristina Blume, Eliseu Alves Waldman, Ana Angélica Bulcão Portela Lindoso, Maria Josefa Penon Rujula, Giovanna Maria Orlandi, Maria de Lourdes Viude Oliveira, et al.",
+      "journal": "The Lancet Regional Health - Americas",
+      "year": 2024,
+      "date": "2024-05-24",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.lana.2024.100765"
+    },
+    {
+      "doi": "10.1136/bmjph-2023-000654",
+      "title": "Cross-sectional study of personal protective equipment use, training and biosafety preparedness among healthcare workers during the first months of the SARS-CoV-2 pandemic in Brazil",
+      "authors": "Kerstin Muner, Julia Kilgour, Tatiana Ometto, Ana Pérola Drulla Brandão, Andrea Pires dos Santos, Ana M. S. Guimarães",
+      "journal": "BMJ Public Health",
+      "year": 2024,
+      "date": "2024-04-01",
+      "type": "article",
+      "url": "https://doi.org/10.1136/bmjph-2023-000654"
+    },
+    {
+      "doi": "10.1128/spectrum.02289-23",
+      "title": "Diversification of gene content in the Mycobacterium tuberculosis complex is determined by phylogenetic and ecological signatures",
+      "authors": "Taiana Tainá Silva‐Pereira, Naila Cristina Soler-Camargo, Ana M. S. Guimarães",
+      "journal": "Microbiology Spectrum",
+      "year": 2024,
+      "date": "2024-01-17",
+      "type": "article",
+      "url": "https://doi.org/10.1128/spectrum.02289-23"
+    },
+    {
+      "doi": "10.1590/s1678-9946202466044",
+      "title": "Hepatic endotheliitis in Golden Syrian hamsters (Mesocricetus auratus) experimentally infected with SARS-CoV-2",
+      "authors": "Alex Júnior Souza de Souza, Antônio Francisco de Souza Filho, Cristina Kraemer Zimpel, Marina Caçador Ayupe, Marcelo Valdemir de Araújo, Rafael Rahal Guaragna Machado, et al.",
+      "journal": "Revista do Instituto de Medicina Tropical de São Paulo",
+      "year": 2024,
+      "date": "2024-01-01",
+      "type": "article",
+      "url": "https://doi.org/10.1590/s1678-9946202466044"
+    },
+    {
+      "doi": "10.1038/s42003-023-05317-9",
+      "title": "Calpeptin is a potent cathepsin inhibitor and drug candidate for SARS-CoV-2 infections",
+      "authors": "Patrick Y. A. Reinke, Edmárcia Elisa de Souza, Sebastian Günther, Sven Falke, Julia Lieske, Wiebke Ewert, et al.",
+      "journal": "Communications Biology",
+      "year": 2023,
+      "date": "2023-10-18",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s42003-023-05317-9"
+    },
+    {
+      "doi": "10.3390/pathogens12101250",
+      "title": "Glanders Diagnosis in an Asymptomatic Mare from Brazil: Insights from Serology, Microbiological Culture, Mass Spectrometry, and Genome Sequencing",
+      "authors": "Paula Adas Pereira Suniga, Cynthia Mantovani, Maria Goretti dos Santos, Andréa  Alves do Egito, Newton V. Verbisck, Lenita Ramires dos Santos, et al.",
+      "journal": "Pathogens",
+      "year": 2023,
+      "date": "2023-10-17",
+      "type": "article",
+      "url": "https://doi.org/10.3390/pathogens12101250"
+    },
+    {
+      "doi": "10.1038/s41598-023-41285-0",
+      "title": "Molecular detection and characterization of SARS-CoV-2 in cats and dogs of positive owners during the first COVID-19 wave in Brazil",
+      "authors": "Juliana Arena Galhardo, David Soeiro Barbosa, Louise Bach Kmetiuk, Otávio Carvalho, Ana Izabel Passarella Teixeira, Paula Luize Camargos Fonseca, et al.",
+      "journal": "Scientific Reports",
+      "year": 2023,
+      "date": "2023-09-02",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41598-023-41285-0"
+    },
+    {
+      "doi": "10.1016/j.omtm.2023.06.009",
+      "title": "Impact of an autophagy-inducing peptide on immunogenicity and protection efficacy of an adenovirus-vectored SARS-CoV-2 vaccine",
+      "authors": "Ekramy E. Sayedahmed, Marcelo Valdemir de Araújo, Taiana Tainá Silva‐Pereira, Shubhada K. Chothe, Ahmed Elkashif, Marwa Alhashimi, et al.",
+      "journal": "Molecular Therapy — Methods & Clinical Development",
+      "year": 2023,
+      "date": "2023-06-28",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.omtm.2023.06.009"
+    },
+    {
+      "doi": "10.3389/fmicb.2023.1157559",
+      "title": "Editorial: Evolution and genomics of the Mycobacterium tuberculosis complex",
+      "authors": "Ana M. S. Guimarães, Adrian R. Allen, Marian L. Price-Carter",
+      "journal": "Frontiers in Microbiology",
+      "year": 2023,
+      "date": "2023-03-03",
+      "type": "editorial",
+      "url": "https://doi.org/10.3389/fmicb.2023.1157559"
+    },
+    {
+      "doi": "10.3390/v14112424",
+      "title": "Retrospective Analysis of the SARS-CoV-2 Infection Profile in COVID-19 Positive Patients in Vitoria da Conquista, Northeast Brazil",
+      "authors": "Anna Carolina Saúde Dantas, Hellen Braga Martins Oliveira, Camila Pachêco Gomes, Daniele Leite Alves, Priscilla D. B. Infante, Rosimara de J. A. Caitité, et al.",
+      "journal": "Viruses",
+      "year": 2022,
+      "date": "2022-10-31",
+      "type": "article",
+      "url": "https://doi.org/10.3390/v14112424"
+    },
+    {
+      "doi": "10.1099/mgen.0.000876",
+      "title": "The rate and role of pseudogenes of the Mycobacterium tuberculosis complex",
+      "authors": "Naila Cristina Soler-Camargo, Taiana Tainá Silva‐Pereira, Cristina Kraemer Zimpel, Maurício Frota Camacho, André Zelanis, Alexandre Hild Aono, et al.",
+      "journal": "Microbial Genomics",
+      "year": 2022,
+      "date": "2022-10-17",
+      "type": "article",
+      "url": "https://doi.org/10.1099/mgen.0.000876"
+    },
+    {
+      "doi": "10.1016/j.rvsc.2022.10.006",
+      "title": "Infection of SARS-CoV-2 in domestic dogs associated with owner viral load",
+      "authors": "Altina Bruna de Souza Barbosa, Louise Bach Kmetiuk, Otávio Carvalho, Ana Pérola Drulla Brandão, Fernando Rodrigo Doline, Sibele Rejane Rangel Silveira Lopes, et al.",
+      "journal": "Research in Veterinary Science",
+      "year": 2022,
+      "date": "2022-10-13",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.rvsc.2022.10.006"
+    },
+    {
+      "doi": "10.1016/j.tube.2022.102254",
+      "title": "Unraveling the metabolism of Mycobacterium caprae using comparative genomics",
+      "authors": "Giovanni Emiddio Romano, Taiana Tainá Silva‐Pereira, Filipe Menegatti de Melo, María Carolina Sisco, Alexandre Campos Banari, Cristina Kraemer Zimpel, et al.",
+      "journal": "Tuberculosis",
+      "year": 2022,
+      "date": "2022-09-01",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.tube.2022.102254"
+    },
+    {
+      "doi": "10.1111/jnc.15679",
+      "title": "SARS‐CoV ‐2 infection impacts carbon metabolism and depends on glutamine for replication in Syrian hamster astrocytes",
+      "authors": "Lilian Gomes de Oliveira, Yan de Souza Angelo, Pedro Takao Yamamoto, Victor Corasolla Carregari, Fernanda Crunfli, Guilherme Reis‐de‐Oliveira, et al.",
+      "journal": "Journal of Neurochemistry",
+      "year": 2022,
+      "date": "2022-07-26",
+      "type": "article",
+      "url": "https://doi.org/10.1111/jnc.15679"
+    },
+    {
+      "doi": "10.1007/s11259-022-09972-x",
+      "title": "The first Mycoplasma ovipneumoniae recovered from a sheep with respiratory disease in Brazil – draft genome and genomic analysis",
+      "authors": "Natália Carrillo Gaeta, Ana M. S. Guimarães, Jorge Timenetsky, Stephanie Clouser, Lílian Gregory, Erika Ganda",
+      "journal": "Veterinary Research Communications",
+      "year": 2022,
+      "date": "2022-07-08",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s11259-022-09972-x"
+    },
+    {
+      "doi": "10.1038/s41598-022-07793-1",
+      "title": "Anti-SARS-CoV-2 equine F (Ab′)2 immunoglobulin as a possible therapy for COVID-19",
+      "authors": "Viviane Fongaro Botosso, Soraia Attie Calil Jorge, Renato Mancini Astray, Ana M. S. Guimarães, Mônica Beatriz Mathor, Patrícia dos Santos Carneiro, et al.",
+      "journal": "Scientific Reports",
+      "year": 2022,
+      "date": "2022-03-10",
+      "type": "article",
+      "url": "https://doi.org/10.1038/s41598-022-07793-1"
+    },
+    {
+      "doi": "10.1371/journal.pntd.0009754",
+      "title": "High SARS-CoV-2 seroprevalence in persons experiencing homelessness and shelter workers from a day-shelter in São Paulo, Brazil",
+      "authors": "Anahi Chechia do Couto, Louise Bach Kmetiuk, Ruana Renostro Delai, Ana Pérola Drulla Brandão, Cairo Oliveira Monteiro, Luciana Helena Antoniassi da Silva, et al.",
+      "journal": "PLoS neglected tropical diseases",
+      "year": 2021,
+      "date": "2021-10-19",
+      "type": "article",
+      "url": "https://doi.org/10.1371/journal.pntd.0009754"
+    },
+    {
+      "doi": "10.1111/tbed.14343",
+      "title": "Genomic analysis of an outbreak of bovine tuberculosis in a man‐made multi‐host species system: A call for action on wildlife in Brazil",
+      "authors": "Daiane A. R. Lima, Cristina Kraemer Zimpel, José Salvatore Leister Patané, Taiana Tainá Silva‐Pereira, Rodrigo Nestor Etges, Rudielle A. Rodrigues, et al.",
+      "journal": "Transboundary and Emerging Diseases",
+      "year": 2021,
+      "date": "2021-10-11",
+      "type": "article",
+      "url": "https://doi.org/10.1111/tbed.14343"
+    },
+    {
+      "doi": "10.3389/fvets.2021.666283",
+      "title": "Multispacer Sequence Typing for Mycobacterium bovis Genotyping",
+      "authors": "Érica Bravo Sales, Antônio Augusto Fonseca Júnior, Cristina Magalhães Gonçalves, Andrey Pereira Lage, Giovanna Ivo Andrade, Philip Noël Suffys, et al.",
+      "journal": "Frontiers in Veterinary Science",
+      "year": 2021,
+      "date": "2021-04-26",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fvets.2021.666283"
+    },
+    {
+      "doi": "10.3389/fvets.2021.630989",
+      "title": "Genetic Diversity and Potential Paths of Transmission of Mycobacterium bovis in the Amazon: The Discovery of M. bovis Lineage Lb1 Circulating in South America",
+      "authors": "Paulo A. M. Carneiro, Cristina Kraemer Zimpel, Taynara Nunes Pasquatti, Taiana Tainá Silva‐Pereira, Haruo Takatani, Christian B. D. G. Silva, et al.",
+      "journal": "Frontiers in Veterinary Science",
+      "year": 2021,
+      "date": "2021-02-16",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fvets.2021.630989"
+    },
+    {
+      "doi": "10.3389/fvets.2020.591216",
+      "title": "Natural Infection by SARS-CoV-2 in Companion Animals: A Review of Case Reports and Current Evidence of Their Role in the Epidemiology of COVID-19",
+      "authors": "Hélio Autran de Morais, Andrea Pires dos Santos, Naíla Cannes do Nascimento, Louise Bach Kmetiuk, David Soeiro Barbosa, Paulo Eduardo Brandão, et al.",
+      "journal": "Frontiers in Veterinary Science",
+      "year": 2020,
+      "date": "2020-10-27",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fvets.2020.591216"
+    },
+    {
+      "doi": "10.1016/j.vetmic.2020.108866",
+      "title": "Novel antigenic proteins of Mycoplasma agalactiae as potential vaccine and serodiagnostic candidates",
+      "authors": "Maysa Santos Barbosa, Rúbens Prince dos Santos Alves, Izadora de Souza Rezende, Samuel Santos Pereira, Guilherme Barreto Campos, Leandro Martins de Freitas, et al.",
+      "journal": "Veterinary Microbiology",
+      "year": 2020,
+      "date": "2020-09-30",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.vetmic.2020.108866"
+    },
+    {
+      "doi": "10.3389/fmicb.2020.00843",
+      "title": "Global Distribution and Evolution of Mycobacterium bovis Lineages",
+      "authors": "Cristina Kraemer Zimpel, José Salvatore Leister Patané, Aureliano Coelho Proença Guedes, Robson Francisco de Souza, Taiana Tainá Silva‐Pereira, Naila Camargo, et al.",
+      "journal": "Frontiers in Microbiology",
+      "year": 2020,
+      "date": "2020-05-07",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fmicb.2020.00843"
+    },
+    {
+      "doi": "10.3390/microorganisms8050667",
+      "title": "Mycobacterium bovis: From Genotyping to Genome Sequencing",
+      "authors": "Ana M. S. Guimarães, Cristina Kraemer Zimpel",
+      "journal": "Microorganisms",
+      "year": 2020,
+      "date": "2020-05-03",
+      "type": "article",
+      "url": "https://doi.org/10.3390/microorganisms8050667"
+    },
+    {
+      "doi": "10.1186/s12864-019-6407-5",
+      "title": "Genome sequencing of Mycobacterium pinnipedii strains: genetic characterization and evidence of superinfection in a South American sea lion (Otaria flavescens)",
+      "authors": "Taiana Tainá Silva‐Pereira, Cássia Yumi Ikuta, Cristina Kraemer Zimpel, Naila Camargo, Antônio Francisco de Souza Filho, José Soares Ferreira Neto, et al.",
+      "journal": "BMC Genomics",
+      "year": 2019,
+      "date": "2019-12-01",
+      "type": "article",
+      "url": "https://doi.org/10.1186/s12864-019-6407-5"
+    },
+    {
+      "doi": "10.1099/jmm.0.000956",
+      "title": "Genomic profile of Brazilian methicillin-resistant Staphylococcus aureus resembles clones dispersed worldwide",
+      "authors": "Suzi Pacheco de Carvalho, Jéssica Bomfim de Almeida, Leandro Martins de Freitas, Ana M. S. Guimarães, Naíla Cannes do Nascimento, Andrea Pires dos Santos, et al.",
+      "journal": "Journal of Medical Microbiology",
+      "year": 2019,
+      "date": "2019-03-22",
+      "type": "article",
+      "url": "https://doi.org/10.1099/jmm.0.000956"
+    },
+    {
+      "doi": "10.3389/fmicb.2018.01538",
+      "title": "Ureaplasma diversum and Its Membrane-Associated Lipoproteins Activate Inflammatory Genes Through the NF-κB Pathway via Toll-Like Receptor 4",
+      "authors": "Manoel Neres Santos Júnior, Izadora Souza Rezende, Clarissa Leal Silva e Souza, Maysa Santos Barbosa, Guilherme Barreto Campos, Laís Ferraz Brito, et al.",
+      "journal": "Frontiers in Microbiology",
+      "year": 2018,
+      "date": "2018-07-12",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fmicb.2018.01538"
+    },
+    {
+      "doi": "10.22456/1679-9216.17057",
+      "title": "Serum and Urinary C-Reactive Protein Concentrations in Dogs with Leptospirosis",
+      "authors": "Simone Tostes de Oliveira, Joanne B. Messick, Alexander Welker Biondo, Andrea Pires dos Santos, Ana M. S. Guimarães, Ahmed Sidi Mohamed, et al.",
+      "journal": "ACTA SCIENTIAE VETERINARIAE",
+      "year": 2018,
+      "date": "2018-06-27",
+      "type": "article",
+      "url": "https://doi.org/10.22456/1679-9216.17057"
+    },
+    {
+      "doi": "10.1186/s13567-018-0546-6",
+      "title": "RNA-Seq based transcriptome of whole blood from immunocompetent pigs (Sus scrofa) experimentally infected with Mycoplasma suis strain Illinois",
+      "authors": "Naíla Cannes do Nascimento, Ana M. S. Guimarães, Andrea Pires dos Santos, Yuefeng Chu, Lucas Miranda Marques, Joanne B. Messick",
+      "journal": "Veterinary Research",
+      "year": 2018,
+      "date": "2018-06-18",
+      "type": "article",
+      "url": "https://doi.org/10.1186/s13567-018-0546-6"
+    },
+    {
+      "doi": "",
+      "title": "Producing cost of dairy cattle females during lactation and recreates phase: study case on a production system in the State of Minas Gerais.",
+      "authors": "Eduardo Mitke Brandão Reis, M. A. Lopes, Glauber dos Santos, Ana M. S. Guimarães",
+      "journal": "",
+      "year": 2018,
+      "date": "2018-01-01",
+      "type": "article",
+      "url": "https://www.cabdirect.org/cabdirect/abstract/20183359568?q=(au%3a%22Santos%2c+G.+dos%22)"
+    },
+    {
+      "doi": "10.3389/fmicb.2017.02389",
+      "title": "Complete Genome Sequencing of Mycobacterium bovis SP38 and Comparative Genomics of Mycobacterium bovis and M. tuberculosis Strains",
+      "authors": "Cristina Kraemer Zimpel, Paulo Eduardo Brandão, Antônio Francisco de Souza Filho, Robson Francisco de Souza, Cássia Yumi Ikuta, José Soares Ferreira Neto, et al.",
+      "journal": "Frontiers in Microbiology",
+      "year": 2017,
+      "date": "2017-12-05",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fmicb.2017.02389"
+    },
+    {
+      "doi": "10.1128/genomea.00158-17",
+      "title": "Draft Genome Sequences of Two Clinical Methicillin-Resistant Staphylococcus aureus Strains Isolated from Healthy Children in Brazil",
+      "authors": "Suzi Pacheco de Carvalho, Jéssica Bomfim de Almeida, Leandro Martins de Freitas, Ana M. S. Guimarães, Naíla Cannes do Nascimento, Andrea Pires dos Santos, et al.",
+      "journal": "Genome Announcements",
+      "year": 2017,
+      "date": "2017-04-13",
+      "type": "article",
+      "url": "https://doi.org/10.1128/genomea.00158-17"
+    },
+    {
+      "doi": "10.1128/genomea.00154-17",
+      "title": "Draft Genome Sequence of Methicillin-Resistant Staphylococcus aureus Strain LC33 Isolated from Human Breast Milk",
+      "authors": "Jéssica Bomfim de Almeida, Suzi Pacheco de Carvalho, Leandro Martins de Freitas, Ana M. S. Guimarães, Naíla Cannes do Nascimento, Andrea Pires dos Santos, et al.",
+      "journal": "Genome Announcements",
+      "year": 2017,
+      "date": "2017-04-13",
+      "type": "article",
+      "url": "https://doi.org/10.1128/genomea.00154-17"
+    },
+    {
+      "doi": "10.1016/j.bjm.2016.09.020",
+      "title": "Molecular characterization of ureaplasmas isolated from reproductive tract of goats and sheep from Brazil",
+      "authors": "Rosângela Claret de Oliveira, M. Yamaguti, Lucas Miranda Marques, Melissa Buzinhani, Huber Rizzo, Enoch Brandão de Souza Meira-Júnior, et al.",
+      "journal": "Brazilian Journal of Microbiology",
+      "year": 2017,
+      "date": "2017-02-21",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.bjm.2016.09.020"
+    },
+    {
+      "doi": "10.1186/s13104-017-2413-3",
+      "title": "Mycobacterium bovis in a European bison (Bison bonasus) raises concerns about tuberculosis in Brazilian captive wildlife populations: a case report",
+      "authors": "Cristina Kraemer Zimpel, Juliana Sperotto Brum, Antônio Francisco de Souza Filho, Alexander Welker Biondo, João Henrique Perotta, Cristina Corsi Dib, et al.",
+      "journal": "BMC Research Notes",
+      "year": 2017,
+      "date": "2017-02-10",
+      "type": "article",
+      "url": "https://doi.org/10.1186/s13104-017-2413-3"
+    },
+    {
+      "doi": "10.1128/genomea.01293-16",
+      "title": "Draft Genome Sequence of Marine-Derived Aeromonas caviae CHZ306, a Potential Chitinase Producer Strain",
+      "authors": "Flávio Augusto Cardozo, Cristina Kraemer Zimpel, Ana M. S. Guimarães, Adalberto Pessoa, Irma Nelly Gutierrez Rivera",
+      "journal": "Genome Announcements",
+      "year": 2016,
+      "date": "2016-11-18",
+      "type": "article",
+      "url": "https://doi.org/10.1128/genomea.01293-16"
+    },
+    {
+      "doi": "10.1371/journal.pone.0161926",
+      "title": "Ureaplasma diversum Genome Provides New Insights about the Interaction of the Surface Molecules of This Bacterium with the Host",
+      "authors": "Lucas Miranda Marques, Izadora Souza Rezende, Maysa Santos Barbosa, Ana M. S. Guimarães, Hellen Braga Martins, Guilherme Barreto Campos, et al.",
+      "journal": "PLoS ONE",
+      "year": 2016,
+      "date": "2016-09-07",
+      "type": "article",
+      "url": "https://doi.org/10.1371/journal.pone.0161926"
+    },
+    {
+      "doi": "10.1016/j.cimid.2016.07.002",
+      "title": "Ehrlichia sp. infection in carthorses of low-income owners, Southern Brazil",
+      "authors": "Thállitha Samih Wischral Jayme Vieira, Rafael Felipe da Costa Vieira, Felipe da Silva Krawczak, Herbert Sousa Soares, Ana M. S. Guimarães, Ivan Roque de Barros Filho, et al.",
+      "journal": "Comparative Immunology Microbiology and Infectious Diseases",
+      "year": 2016,
+      "date": "2016-07-15",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.cimid.2016.07.002"
+    },
+    {
+      "doi": "10.1590/s1984-29612015065",
+      "title": "Occurrence of antibodies anti -Toxoplasma gondii, Neospora caninum and Leptospira interrogans in a captive deer herd in Southern Brazil",
+      "authors": "Cristina Kraemer Zimpel, Ana Laura Grazziotin, Ivan Roque de Barros Filho, Ana M. S. Guimarães, Leonilda Correia dos Santos, Wanderlei de Moraes, et al.",
+      "journal": "Revista Brasileira de Parasitologia Veterinária/Brazilian Journal of Veterinary Parasitology",
+      "year": 2015,
+      "date": "2015-11-07",
+      "type": "article",
+      "url": "https://doi.org/10.1590/s1984-29612015065"
+    },
+    {
+      "doi": "10.1590/s0036-46652015000400014",
+      "title": "MOLECULAR INVESTIGATION OF HEMOTROPIC MYCOPLASMAS IN HUMAN BEINGS, DOGS AND HORSES IN A RURAL SETTLEMENT IN SOUTHERN BRAZIL",
+      "authors": "Rafael Felipe da Costa Vieira, Odilon Vidotto, Thállitha Samih Wischral Jayme Vieira, Ana M. S. Guimarães, Andrea Pires dos Santos, Naíla Cannes do Nascimento, et al.",
+      "journal": "Revista do Instituto de Medicina Tropical de São Paulo",
+      "year": 2015,
+      "date": "2015-08-01",
+      "type": "article",
+      "url": "https://doi.org/10.1590/s0036-46652015000400014"
+    },
+    {
+      "doi": "10.1136/vetreco-2014-000093",
+      "title": "Molecular characterisation of Mycoplasma hyorhinis isolated from pigs using pulsed‐field gel electrophoresis and 16S rRNA sequencing",
+      "authors": "M. Yamaguti, Rosângela Claret de Oliveira, Lucas Miranda Marques, Melissa Buzinhani, Marcos Roberto Buim, R. L. Neto, et al.",
+      "journal": "Veterinary Record Open",
+      "year": 2015,
+      "date": "2015-08-01",
+      "type": "article",
+      "url": "https://doi.org/10.1136/vetreco-2014-000093"
+    },
+    {
+      "doi": "10.1128/genomea.00511-15",
+      "title": "Draft Genome Sequence of Mycobacterium bovis Strain SP38, a Pathogenic Bacterium Isolated from a Bovine in Brazil",
+      "authors": "Ana M. S. Guimarães, Cristina Kraemer Zimpel, Cássia Yumi Ikuta, Naíla Cannes do Nascimento, Andrea Pires dos Santos, Joanne B. Messick, et al.",
+      "journal": "Genome Announcements",
+      "year": 2015,
+      "date": "2015-05-22",
+      "type": "article",
+      "url": "https://doi.org/10.1128/genomea.00511-15"
+    },
+    {
+      "doi": "10.1128/genomea.00314-15",
+      "title": "Genome Sequence of Ureaplasma diversum Strain ATCC 49782",
+      "authors": "Lucas Miranda Marques, Ana M. S. Guimarães, Hellen Braga Martins, Izadora Souza Rezende, Maysa Santos Barbosa, Guilherme Barreto Campos, et al.",
+      "journal": "Genome Announcements",
+      "year": 2015,
+      "date": "2015-04-17",
+      "type": "article",
+      "url": "https://doi.org/10.1128/genomea.00314-15"
+    },
+    {
+      "doi": "10.5433/1679-0359.2015v36n1p291",
+      "title": "Use of pan-hemoplasma PCR for screening horses highly exposed to tick bites from southern Brazil",
+      "authors": "Thállitha Samih Wischral Jayme Vieira, Odilon Vidotto, Ana M. S. Guimarães, Andrea Pires dos Santos, Naíla Cannes do Nascimento, Mariane Angélica Pommerening Finger, et al.",
+      "journal": "Semina Ciências Agrárias",
+      "year": 2015,
+      "date": "2015-02-27",
+      "type": "article",
+      "url": "https://doi.org/10.5433/1679-0359.2015v36n1p291"
+    },
+    {
+      "doi": "10.1590/s1984-29612014079",
+      "title": "Hemoplasma prevalence and hematological abnormalities associated with infection in three different cat populations from Southern Brazil",
+      "authors": "Andrea Pires dos Santos, Francisco O. Conrado, Joanne B. Messick, Alexander Welker Biondo, Simone Tostes de Oliveira, Ana M. S. Guimarães, et al.",
+      "journal": "Revista Brasileira de Parasitologia Veterinária/Brazilian Journal of Veterinary Parasitology",
+      "year": 2014,
+      "date": "2014-12-01",
+      "type": "article",
+      "url": "https://doi.org/10.1590/s1984-29612014079"
+    },
+    {
+      "doi": "10.1186/s13567-014-0086-7",
+      "title": "Microscopy and genomic analysis of Mycoplasma parvum strain Indiana",
+      "authors": "Naíla Cannes do Nascimento, Andrea Pires dos Santos, Yuefeng Chu, Ana M. S. Guimarães, A. N. Baird, Ann B. Weil, et al.",
+      "journal": "Veterinary Research",
+      "year": 2014,
+      "date": "2014-08-11",
+      "type": "article",
+      "url": "https://doi.org/10.1186/s13567-014-0086-7"
+    },
+    {
+      "doi": "10.1371/journal.pone.0091445",
+      "title": "Comparative Genomics and Phylogenomics of Hemotrophic Mycoplasmas",
+      "authors": "Ana M. S. Guimarães, Andrea Pires dos Santos, Naíla Cannes do Nascimento, Jorge Timenetsky, Joanne B. Messick",
+      "journal": "PLoS ONE",
+      "year": 2014,
+      "date": "2014-03-18",
+      "type": "article",
+      "url": "https://doi.org/10.1371/journal.pone.0091445"
+    },
+    {
+      "doi": "10.1177/1040638713520542",
+      "title": "Identification of Mycoplasma suis antigens and development of a multiplex microbead immunoassay",
+      "authors": "Ana M. S. Guimarães, Andrea Pires dos Santos, Jorge Timenetsky, Leslie P. Bower, Erin L. Strait, Joanne B. Messick",
+      "journal": "Journal of Veterinary Diagnostic Investigation",
+      "year": 2014,
+      "date": "2014-02-20",
+      "type": "article",
+      "url": "https://doi.org/10.1177/1040638713520542"
+    },
+    {
+      "doi": "10.1128/genomea.00986-13",
+      "title": "Genome Sequence of Mycoplasma parvum (Formerly Eperythrozoon parvum), a Diminutive Hemoplasma of the Pig",
+      "authors": "Naíla Cannes do Nascimento, Andrea Pires dos Santos, Yuefeng Chu, Ana M. S. Guimarães, Apryl Pagliaro, Joanne B. Messick",
+      "journal": "Genome Announcements",
+      "year": 2013,
+      "date": "2013-11-28",
+      "type": "article",
+      "url": "https://doi.org/10.1128/genomea.00986-13"
+    },
+    {
+      "doi": "10.1002/ajp.22164",
+      "title": "Frequency of different human mollicutes species in the mucosa of the oropharynx, conjunctiva, and genitalia of free‐ranging and captive capuchin monkeys (Cebus spp.)",
+      "authors": "R. L. Neto, Lucas Miranda Marques, Ana M. S. Guimarães, M. Yamaguti, Rosângela Claret de Oliveira, Elerson Gaetti‐Jardim, et al.",
+      "journal": "American Journal of Primatology",
+      "year": 2013,
+      "date": "2013-05-15",
+      "type": "article",
+      "url": "https://doi.org/10.1002/ajp.22164"
+    },
+    {
+      "doi": "10.1016/j.prevetmed.2012.10.006",
+      "title": "Impact of demographic characteristics in pet ownership: Modeling animal count according to owners income and age",
+      "authors": "Camila Marinelli Martins, Ahmed Mohamed, Ana M. S. Guimarães, Cristiane da Conceição de Barros, Raquel dos Santos Pampuch, Walfrido Kühl Svoboda, et al.",
+      "journal": "Preventive Veterinary Medicine",
+      "year": 2012,
+      "date": "2012-11-12",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.prevetmed.2012.10.006"
+    },
+    {
+      "doi": "10.1128/jb.01557-12",
+      "title": "Genome Sequence of “Candidatus Mycoplasma haemolamae” Strain Purdue, a Red Blood Cell Pathogen of Alpacas (Vicugna pacos) and Llamas (Lama glama)",
+      "authors": "Ana M. S. Guimarães, Balázs István Tóth, Andrea Pires dos Santos, Naíla Cannes do Nascimento, Janice E. Kritchevsky, Joanne B. Messick",
+      "journal": "Journal of Bacteriology",
+      "year": 2012,
+      "date": "2012-10-26",
+      "type": "article",
+      "url": "https://doi.org/10.1128/jb.01557-12"
+    },
+    {
+      "doi": "10.1128/jb.01240-12",
+      "title": "Complete Genome Sequence of Mycoplasma wenyonii Strain Massachusetts",
+      "authors": "Andrea Pires dos Santos, Ana M. S. Guimarães, Naíla Cannes do Nascimento, Phillip J. SanMiguel, Joanne B. Messick",
+      "journal": "Journal of Bacteriology",
+      "year": 2012,
+      "date": "2012-09-10",
+      "type": "article",
+      "url": "https://doi.org/10.1128/jb.01240-12"
+    },
+    {
+      "doi": "10.1638/2010-0091.1",
+      "title": "SEROLOGIC SURVEY FORLEPTOSPIRASPP. IN CAPTIVE NEOTROPICAL FELIDS IN FOZ DO IGUAÇU, PARANÁ, BRAZIL",
+      "authors": "Leila Sabrina Ullmann, Juliano Leônidas Hoffmann, Wanderlei de Moraes, Zalmir Silvino Cubas, Leonilda Correia dos Santos, Rodrigo Costa da Silva, et al.",
+      "journal": "Journal of Zoo and Wildlife Medicine",
+      "year": 2012,
+      "date": "2012-06-01",
+      "type": "article",
+      "url": "https://doi.org/10.1638/2010-0091.1"
+    },
+    {
+      "doi": "10.1128/jb.06781-11",
+      "title": "Complete Genome Sequence of Mycoplasma haemocanis Strain Illinois",
+      "authors": "Naíla Cannes do Nascimento, Ana M. S. Guimarães, Andrea Pires dos Santos, Phillip J. SanMiguel, Joanne B. Messick",
+      "journal": "Journal of Bacteriology",
+      "year": 2012,
+      "date": "2012-02-28",
+      "type": "article",
+      "url": "https://doi.org/10.1128/jb.06781-11"
+    },
+    {
+      "doi": "10.1186/1297-9716-43-66",
+      "title": "Mycoplasma haemocanis – the canine hemoplasma and its feline counterpart in the genomic era",
+      "authors": "Naíla Cannes do Nascimento, Andrea Pires dos Santos, Ana M. S. Guimarães, Phillip J. SanMiguel, Joanne B. Messick",
+      "journal": "Veterinary Research",
+      "year": 2012,
+      "date": "2012-01-01",
+      "type": "article",
+      "url": "https://doi.org/10.1186/1297-9716-43-66"
+    },
+    {
+      "doi": "",
+      "title": "Donos com menos renda não possuem mais cães: modelagem na contagem de animais de acordo com seus donos",
+      "authors": "Camila Marinelli Martins, A. El-Tayeb Mohamed, Ana M. S. Guimarães, Cristiane da Conceição de Barros, Raquel dos Santos Pampuch, Walfrido Kühl Svoboda, et al.",
+      "journal": "Archives of Veterinary Science",
+      "year": 2012,
+      "date": "2012-01-01",
+      "type": "article",
+      "url": "https://habricentral.org/resources/39995"
+    },
+    {
+      "doi": "10.1111/j.1939-165x.2011.00376.x",
+      "title": "Identification of a Mycoplasma ovis ‐like organism in a herd of farmed white‐tailed deer ( Odocoileus virginianus ) in rural I ndiana",
+      "authors": "Katie M. Boes, Kristina O. Goncarovs, Craig A. Thompson, Lindsay A. Halik, Andrea Pires dos Santos, Ana M. S. Guimarães, et al.",
+      "journal": "Veterinary Clinical Pathology",
+      "year": 2011,
+      "date": "2011-11-23",
+      "type": "article",
+      "url": "https://doi.org/10.1111/j.1939-165x.2011.00376.x"
+    },
+    {
+      "doi": "10.7589/0090-3558-47.4.1005",
+      "title": "Prevalence and Molecular Characterization of Mycoplasma ovis in Selected Free-Ranging Brazilian Deer Populations",
+      "authors": "Ana Laura Grazziotin, José Maurício Barbanti Duarte, Matías Pablo Juan Szabó, Andrea Pires dos Santos, Ana M. S. Guimarães, Ahmed Mohamed, et al.",
+      "journal": "Journal of Wildlife Diseases",
+      "year": 2011,
+      "date": "2011-10-01",
+      "type": "article",
+      "url": "https://doi.org/10.7589/0090-3558-47.4.1005"
+    },
+    {
+      "doi": "10.1111/j.1365-2672.2011.05053.x",
+      "title": "A quantitative TaqMan PCR assay for the detection of Mycoplasma suis",
+      "authors": "Ana M. S. Guimarães, Rafael Felipe da Costa Vieira, Rosangela Poletto, Ramesh Vemulapalli, Andrea Pires dos Santos, W. de Moraes, et al.",
+      "journal": "Journal of Applied Microbiology",
+      "year": 2011,
+      "date": "2011-05-16",
+      "type": "article",
+      "url": "https://doi.org/10.1111/j.1365-2672.2011.05053.x"
+    },
+    {
+      "doi": "10.1016/j.vetmic.2011.05.001",
+      "title": "Mycoplasma ovis in captive cervids: Prevalence, molecular characterization and phylogeny",
+      "authors": "Ana Laura Grazziotin, Andrea Pires dos Santos, Ana M. S. Guimarães, Ahmed Mohamed, Zalmir Silvino Cubas, Marcos José de Oliveira, et al.",
+      "journal": "Veterinary Microbiology",
+      "year": 2011,
+      "date": "2011-05-11",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.vetmic.2011.05.001"
+    },
+    {
+      "doi": "10.1371/journal.pone.0019574",
+      "title": "Complete Genome Sequence of Mycoplasma suis and Insights into Its Biology and Adaption to an Erythrocyte Niche",
+      "authors": "Ana M. S. Guimarães, Andrea Pires dos Santos, Phillip J. SanMiguel, Thomas Muthusamy Walter, Jorge Timenetsky, Joanne B. Messick",
+      "journal": "PLoS ONE",
+      "year": 2011,
+      "date": "2011-05-10",
+      "type": "article",
+      "url": "https://doi.org/10.1371/journal.pone.0019574"
+    },
+    {
+      "doi": "10.1016/j.vetmic.2011.04.007",
+      "title": "Intraspecific sequence variation in 16S rRNA gene of Ureaplasma diversum isolates",
+      "authors": "Lucas Miranda Marques, Melissa Buzinhani, Ana M. S. Guimarães, Regina Célia Pereira Marques, Sávio Torres de Farías, R. L. Neto, et al.",
+      "journal": "Veterinary Microbiology",
+      "year": 2011,
+      "date": "2011-04-19",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.vetmic.2011.04.007"
+    },
+    {
+      "doi": "10.1590/s1984-29612011000100002",
+      "title": "Ehrlichiosis in Brazil",
+      "authors": "Rafael Felipe da Costa Vieira, Alexander Welker Biondo, Ana M. S. Guimarães, Andrea Pires dos Santos, Rodrigo Pires dos Santos, Leonardo Hermes Dutra, et al.",
+      "journal": "Revista Brasileira de Parasitologia Veterinária/Brazilian Journal of Veterinary Parasitology",
+      "year": 2011,
+      "date": "2011-03-01",
+      "type": "article",
+      "url": "https://doi.org/10.1590/s1984-29612011000100002"
+    },
+    {
+      "doi": "10.1590/s1984-29612011000100016",
+      "title": "Use of a Mycoplasma suis-PCR protocol for screening a population of captive peccaries (Tayassu tajacu and Tayassu pecari)",
+      "authors": "Rafael Felipe da Costa Vieira, Marcelo Beltrão Molento, Ana M. S. Guimarães, Andrea Pires dos Santos, Marcelo Bonat, Manoel Lucas Javorouski, et al.",
+      "journal": "Revista Brasileira de Parasitologia Veterinária/Brazilian Journal of Veterinary Parasitology",
+      "year": 2011,
+      "date": "2011-03-01",
+      "type": "article",
+      "url": "https://doi.org/10.1590/s1984-29612011000100016"
+    },
+    {
+      "doi": "10.1128/jb.00133-11",
+      "title": "Complete Genome Sequences of Two Hemotropic Mycoplasmas, Mycoplasma haemofelis Strain Ohio2 and Mycoplasma suis Strain Illinois",
+      "authors": "Joanne B. Messick, Andrea Pires dos Santos, Ana M. S. Guimarães",
+      "journal": "Journal of Bacteriology",
+      "year": 2011,
+      "date": "2011-02-11",
+      "type": "article",
+      "url": "https://doi.org/10.1128/jb.00133-11"
+    },
+    {
+      "doi": "10.1186/1297-9716-42-102",
+      "title": "Genome of Mycoplasma haemofelis, unraveling its strategies for survival and persistence",
+      "authors": "Andrea Pires dos Santos, Ana M. S. Guimarães, Naíla Cannes do Nascimento, Phillip J. SanMiguel, Samuel W Martin, Joanne B. Messick",
+      "journal": "Veterinary Research",
+      "year": 2011,
+      "date": "2011-01-01",
+      "type": "article",
+      "url": "https://doi.org/10.1186/1297-9716-42-102"
+    },
+    {
+      "doi": "",
+      "title": "Erliquiose no Brasil",
+      "authors": "Rafael Felipe da Costa Vieira, Alexander Welker Biondo, Ana Marcia Sá Guimarães, Andrea Pires dos Santos, Rodrigo Pires dos Santos, Leonardo Coelho dos Santos Dutra, et al.",
+      "journal": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+      "year": 2011,
+      "date": "2011-01-01",
+      "type": "article",
+      "url": "http://hdl.handle.net/10183/153082"
+    },
+    {
+      "doi": "",
+      "title": "Veterinary Microbiology",
+      "authors": "Jorge Timenetsky, Lucas Farinazzo [UNESP] Marques, Melissa Buzinhani, Ana Marcia de Sá Guimarães, Rosângela Maria Fernandes de. OLIVEIRA, M. Yamaguti, et al.",
+      "journal": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+      "year": 2011,
+      "date": "2011-01-01",
+      "type": "article",
+      "url": "http://www.repositorio.ufba.br/ri/handle/ri/5450"
+    },
+    {
+      "doi": "10.1016/j.vetpar.2010.04.013",
+      "title": "Serological survey of Toxoplasma gondii in captive Neotropical felids from Southern Brazil",
+      "authors": "Leila Sabrina Ullmann, Rodrigo Costa da Silva, Wanderlei de Moraes, Zalmir Silvino Cubas, Leonilda Correia dos Santos, Juliano Leônidas Hoffmann, et al.",
+      "journal": "Veterinary Parasitology",
+      "year": 2010,
+      "date": "2010-04-19",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.vetpar.2010.04.013"
+    },
+    {
+      "doi": "10.1186/1471-2180-10-83",
+      "title": "Invasion of Ureaplasma diversum in Hep-2 cells",
+      "authors": "Lucas Miranda Marques, Priscilla M. Ueno, Melissa Buzinhani, Beatriz Araújo Cortez, R. L. Neto, M. Yamaguti, et al.",
+      "journal": "BMC Microbiology",
+      "year": 2010,
+      "date": "2010-03-17",
+      "type": "article",
+      "url": "https://doi.org/10.1186/1471-2180-10-83"
+    },
+    {
+      "doi": "10.1136/vr.165.19.572",
+      "title": "Detection of Ureaplasma diversum in bovine semen straws for artificial insemination",
+      "authors": "Lucas Miranda Marques, Melissa Buzinhani, R. L. Neto, Renata Cristina Gobbi de Oliveira, M. Yamaguti, Ana M. S. Guimarães, et al.",
+      "journal": "Veterinary Record",
+      "year": 2009,
+      "date": "2009-11-01",
+      "type": "article",
+      "url": "https://doi.org/10.1136/vr.165.19.572"
+    },
+    {
+      "doi": "10.1016/j.vetmic.2009.10.002",
+      "title": "Detection of Bartonella spp. in neotropical felids and evaluation of risk factors and hematological abnormalities associated with infection",
+      "authors": "Ana M. S. Guimarães, Paulo Eduardo Brandão, W. Moraes, Samara Flamini Kiihl, Leonilda Correia dos Santos, Cláudia Filoni, et al.",
+      "journal": "Veterinary Microbiology",
+      "year": 2009,
+      "date": "2009-10-21",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.vetmic.2009.10.002"
+    },
+    {
+      "doi": "",
+      "title": "A review of the occurrence of hemoplasmas (hemotrophic mycoplasmas) in Brazil Uma revisão da ocorrência dos hemoplasmas (micoplasmas hemotróficos) no Brasil",
+      "authors": "Alexander Welker Biondo, Andrea Pires, Ana M. S. Guimarães, Rafael Felipe da Costa Vieira, Odilon Vidotto, Daniel de Barros Macieira, et al.",
+      "journal": "Revista Brasileira de Parasitologia Veterinária/Brazilian Journal of Veterinary Parasitology",
+      "year": 2009,
+      "date": "2009-09-01",
+      "type": "review",
+      "url": "https://www.ufrgs.br/lacvet/site/wp-content/uploads/2013/05/biondo_mycoplasma_review.pdf"
+    },
+    {
+      "doi": "10.1016/j.vetmic.2009.06.018",
+      "title": "Detection of a novel hemoplasma based on 16S rRNA gene DNA in captive and free-ranging capybaras (Hydrochaeris hydrochaeris)",
+      "authors": "Rafael Felipe da Costa Vieira, Marcelo Beltrão Molento, Leonilda Correia dos Santos, Wanderlei de Moraes, Zalmir Silvino Cubas, Andrea Pires dos Santos, et al.",
+      "journal": "Veterinary Microbiology",
+      "year": 2009,
+      "date": "2009-06-22",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.vetmic.2009.06.018"
+    },
+    {
+      "doi": "10.1638/2008-0067.1",
+      "title": "Survey of Feline Leukemia Virus and Feline Coronaviruses in Captive Neotropical Wild Felids from Southern Brazil",
+      "authors": "Ana M. S. Guimarães, Paulo Eduardo Brandão, Wanderlei de Moraes, Zalmir Silvino Cubas, Leonilda Correia dos Santos, Laura Villarreal, et al.",
+      "journal": "Journal of Zoo and Wildlife Medicine",
+      "year": 2009,
+      "date": "2009-06-01",
+      "type": "article",
+      "url": "https://doi.org/10.1638/2008-0067.1"
+    },
+    {
+      "doi": "10.4322/rbpv.01803001",
+      "title": "A review of the occurrence of hemoplasmas (hemotrophic mycoplasmas) in Brazil",
+      "authors": "Alexander Welker Biondo, Andrea Pires dos Santos, Ana M. S. Guimarães, Rafael Felipe da Costa Vieira, Odilon Vidotto, Daniel de Barros Macieira, et al.",
+      "journal": "Revista Brasileira de Parasitologia Veterinária/Brazilian Journal of Veterinary Parasitology",
+      "year": 2009,
+      "date": "2009-01-01",
+      "type": "article",
+      "url": "https://doi.org/10.4322/rbpv.01803001"
+    },
+    {
+      "doi": "10.3201/eid1412.080964",
+      "title": "HemoplasmaInfection in HIV-positive Patient, Brazil",
+      "authors": "Andrea Pires dos Santos, Rodrigo Pires dos Santos, Alexander Welker Biondo, José Miguel Dora, Luciano Zubaran Goldani, Simone Tostes de Oliveira, et al.",
+      "journal": "Emerging infectious diseases",
+      "year": 2008,
+      "date": "2008-12-01",
+      "type": "article",
+      "url": "https://doi.org/10.3201/eid1412.080964"
+    },
+    {
+      "doi": "10.1111/j.1863-2378.2008.01171.x",
+      "title": "Survey of Owned Feline and Canine Populations in Apartments from a Neighbourhood in Curitiba, Brazil",
+      "authors": "C. A. V. Serafini, Ghislaine Abadie Rosa, Ana M. S. Guimarães, Hélio Autran de Morais, Alexander Welker Biondo",
+      "journal": "Zoonoses and Public Health",
+      "year": 2008,
+      "date": "2008-09-03",
+      "type": "article",
+      "url": "https://doi.org/10.1111/j.1863-2378.2008.01171.x"
+    },
+    {
+      "doi": "10.1016/j.jfms.2007.05.005",
+      "title": "Co-infection with Mycoplasma haemofelis and ‘ Candidatus Mycoplasma haemominutum’ in three cats from Brazil",
+      "authors": "Hélio Autran de Morais, Ana M. S. Guimarães, Odilon Vidotto, Aline Baumann, Alexander Welker Biondo, Joanne B. Messick",
+      "journal": "Journal of Feline Medicine and Surgery",
+      "year": 2007,
+      "date": "2007-08-11",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.jfms.2007.05.005"
+    },
+    {
+      "doi": "10.1590/s0036-46652007000300011",
+      "title": "Molecular detection of \"Candidatus Mycoplasma haemominutum\" in a lion (Panthera leo) from a brazilian zoological garden",
+      "authors": "Ana M. S. Guimarães, Manoel Lucas Javorouski, Marcelo Bonat, Oneida Lacerda, Bruna Balbinotti, Lucyenne Giselle Popp Queiroz, et al.",
+      "journal": "Revista do Instituto de Medicina Tropical de São Paulo",
+      "year": 2007,
+      "date": "2007-06-01",
+      "type": "article",
+      "url": "https://doi.org/10.1590/s0036-46652007000300011"
+    },
+    {
+      "doi": "10.1136/vr.160.2.50",
+      "title": "Exploratory study of Mycoplasma suis ( Eperythrozoon suis ) on four commercial pig farms in southern Brazil",
+      "authors": "Ana M. S. Guimarães, Alexander Welker Biondo, A. C. Lara, Joanne B. Messick",
+      "journal": "Veterinary Record",
+      "year": 2007,
+      "date": "2007-01-01",
+      "type": "article",
+      "url": "https://doi.org/10.1136/vr.160.2.50"
+    }
+  ]
+}
