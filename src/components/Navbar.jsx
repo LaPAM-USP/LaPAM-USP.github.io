@@ -78,9 +78,7 @@ export default function Navbar({ lang, setLang }) {
         <div className="hidden lg:flex items-center gap-2 shrink-0">
           {/* Freezer -80 Button in Header */}
           <a
-            href={labData.links.freezerRepo || "#"}
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/freezer"
             title="Freezer -80°C Biobank Platform"
             className="h-8 inline-flex items-center justify-center gap-1.5 px-3 rounded-lg text-xs font-semibold text-sky-800 bg-sky-50 border border-sky-200 hover:bg-sky-100 hover:border-sky-300 transition-colors shadow-2xs"
           >

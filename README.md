@@ -8,7 +8,7 @@
 
 ## 🔬 Sobre o LaPAM
 
-O **LaPAM** é dedicado à pesquisa de ponta em micobacteriologia, integrando bancada experimental de nível de biossegurança 3 (NB-3 / BSL-3) e bioinformática genômica de alta resolução. O laboratório é coordenado pela **Prof.ª Dra. Ana Marcia de Sá Guimarães**.
+O **LaPAM** é dedicado à pesquisa em micobacteriologia, integrando bacteriologia experimental, bioinformática e epidemiologia. O laboratório é coordenado pela **Prof.ª Dra. Ana Marcia de Sá Guimarães**.
 
 ---
 
