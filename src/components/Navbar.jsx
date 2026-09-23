@@ -21,8 +21,8 @@ export default function Navbar({ lang, setLang }) {
   }, []);
 
   const navLinks = [
-    { id: 'about', labelPt: 'Sobre', labelEn: 'About' },
     { id: 'brseqtb', labelPt: 'BrSeqTB', labelEn: 'BrSeqTB', highlight: true },
+    { id: 'mtbrx', labelPt: 'MtbRx', labelEn: 'MtbRx', highlight: true },
     { id: 'research', labelPt: 'Pesquisa', labelEn: 'Research' },
     { id: 'team', labelPt: 'Equipe', labelEn: 'Team' },
     { id: 'facilities', labelPt: 'Estrutura', labelEn: 'Facilities' },
@@ -51,7 +51,7 @@ export default function Navbar({ lang, setLang }) {
             <span className="font-extrabold text-xl tracking-tight text-slate-900 leading-none">
               LaPAM
             </span>
-            <span className="text-xs text-slate-500 font-normal mt-1 leading-none">
+            <span className="text-xs text-slate-500 font-normal mt-1 leading-none hidden sm:block lg:hidden xl:block">
               {lang === 'pt' ? 'Laboratório de Pesquisa Aplicada à Micobactérias' : 'Laboratory of Applied Research in Mycobacteria'}
             </span>
           </div>
@@ -75,7 +75,7 @@ export default function Navbar({ lang, setLang }) {
         </nav>
 
         {/* Right CTA Actions: Freezer -80 Button + Lang + GitHub (Aligned) */}
-        <div className="hidden sm:flex items-center gap-2 shrink-0">
+        <div className="hidden lg:flex items-center gap-2 shrink-0">
           {/* Freezer -80 Button in Header */}
           <a
             href={labData.links.freezerRepo || "#"}
@@ -140,7 +140,7 @@ export default function Navbar({ lang, setLang }) {
 
       {/* Mobile Drawer Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-5 space-y-2 shadow-sm">
+        <div className="lg:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-5 space-y-2 shadow-sm">
           <div className="grid grid-cols-2 gap-1.5">
             {navLinks.map((link) => (
               <a

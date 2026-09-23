@@ -49,6 +49,14 @@ export default function Footer({ lang }) {
               </li>
               <li>
                 <a
+                  href="#mtbrx"
+                  className="hover:text-teal-700 transition-colors"
+                >
+                  MtbRx Genomic Explorer
+                </a>
+              </li>
+              <li>
+                <a
                   href="#research"
                   className="hover:text-teal-700 transition-colors"
                 >

@@ -41,6 +41,32 @@ export const labData = {
     ]
   },
 
+  mtbrx: {
+    title: "MtbRx",
+    subtitlePt: "Explorador genômico de Mycobacterium tuberculosis que conecta dados genômicos à interpretação clínica de resistência, com base no catálogo de mutações da OMS (2023).",
+    subtitleEn: "A Mycobacterium tuberculosis genomic explorer that bridges genomic data and clinical drug-resistance interpretation, built on the WHO mutation catalogue (2023).",
+    appUrl: "https://mtbrx.onrender.com",
+    repoUrl: "https://github.com/LaPAM-USP/mtbrx",
+    doiUrl: "https://doi.org/10.5281/zenodo.21035590",
+    exampleQueries: ["katG_Ser315Thr", "rpoB", "Rv0677c"],
+    highlightsPt: [
+      "Busca unificada por locus tag (Rv0677c), nome de gene (mmpS5) ou variante (katG_Ser315Thr).",
+      "Perfis de resistência com o esquema completo do catálogo da OMS: tier, grau de confiança e efeito.",
+      "Visualização genômica integrada com JBrowse 2 e trilha interativa de genes vizinhos.",
+      "Calculadora de coordenadas: posição genômica, notação c. e notação p.",
+      "Recuperação de sequências (CDS, proteína e regiões flanqueadoras).",
+      "Navegação por fármaco e resumo do catálogo por gene e por droga."
+    ],
+    highlightsEn: [
+      "One search box for locus tags (Rv0677c), gene names (mmpS5) or variants (katG_Ser315Thr).",
+      "Resistance profiles with the full WHO catalogue schema: tier, confidence grading and effect.",
+      "Embedded JBrowse 2 genome view and a clickable gene-neighbourhood track.",
+      "Coordinate calculator across genomic, c. and p. notation.",
+      "Sequence retrieval for CDS, protein translation and adjustable flanks.",
+      "Browse by drug, plus per-gene and per-drug catalogue summaries."
+    ]
+  },
+
   // Ordered as requested: Bancada, Bioinformática, Epidemiologia, Tuberculose Animal
   researchPillars: [
     {
@@ -122,193 +148,6 @@ export const labData = {
   ],
 
   // Team section: PI + Kevim (PhD) + 7 Master's students
-  team: {
-    pi: {
-      id: "ana-marcia",
-      name: "Prof.ª Dra. Ana Marcia de Sá Guimarães",
-      nameEn: "Prof. Ana Marcia de Sá Guimarães, PhD",
-      rolePt: "Professora Associada / Coordenadora do LaPAM",
-      roleEn: "Associate Professor / Head of LaPAM",
-      institutionPt: "Departamento de Microbiologia, ICB II - Universidade de São Paulo",
-      institutionEn: "Department of Microbiology, ICB II - University of São Paulo",
-      bioPt: "Professora Associada da Universidade de São Paulo. Atua em pesquisa básica e aplicada em micobacteriologia, epidemiologia molecular, genômica bacteriana e resistência a antimicrobianos em Mycobacterium tuberculosis e micobactérias em animais. Coordena o desenvolvimento do pipeline BrSeqTB e lidera projetos com apoio da FAPESP, CNPq e agências parceiras.",
-      bioEn: "Associate Professor at the University of São Paulo. Specializes in basic and applied research in mycobacteriology, molecular epidemiology, bacterial genomics, and antimicrobial resistance in Mycobacterium tuberculosis and animal mycobacteria. Coordinates the BrSeqTB pipeline development and leads research funded by FAPESP, CNPq, and international partners.",
-      focusPt: "Epidemiologia Molecular, Genômica de Micobactérias, Resistência a Fármacos & Tuberculose Animal",
-      focusEn: "Molecular Epidemiology, Mycobacterial Genomics, Drug Resistance & Animal Tuberculosis",
-      initials: "AMG",
-      image: "./img/ana_marcia.jpeg",
-      lattes: "http://lattes.cnpq.br/9934177267156947",
-      orcid: "https://orcid.org/0000-0002-3850-843X",
-      scholar: "https://scholar.google.com/citations?user=ana-marcia-guimaraes",
-      email: "anamarcia@usp.br"
-    },
-    members: [
-      {
-        id: "kevim",
-        name: "Kevim",
-        nameEn: "Kevim",
-        rolePt: "Doutorado",
-        roleEn: "PhD Candidate",
-        category: "phd",
-        projectPt: "Epidemiologia genômica e vigilância molecular de Mycobacterium tuberculosis e resistência a fármacos",
-        projectEn: "Genomic epidemiology and molecular surveillance of Mycobacterium tuberculosis and drug resistance",
-        skills: ["Epidemiologia Genômica", "WGS", "Bioinformática", "Filodinâmica"],
-        initials: "KV",
-        image: "./img/kevim.jpeg",
-        lattes: "#",
-        github: "https://github.com/LaPAM-USP",
-        email: "anamarcia@usp.br"
-      },
-      {
-        id: "agatha-morgana",
-        name: "Agatha Morgana",
-        nameEn: "Agatha Morgana",
-        rolePt: "Mestrado",
-        roleEn: "MSc Candidate",
-        category: "msc",
-        projectPt: "Pesquisa experimental e caracterização biológica de isolados de micobactérias",
-        projectEn: "Experimental research and biological characterization of mycobacterial isolates",
-        skills: ["Bancada", "Microbiologia", "Cultivo", "NB-3"],
-        initials: "AM",
-        image: "./img/agatha_morgana.jpeg",
-        lattes: "#",
-        github: "https://github.com/LaPAM-USP",
-        email: "anamarcia@usp.br"
-      },
-      {
-        id: "alice-bispo",
-        name: "Alice Bispo",
-        nameEn: "Alice Bispo",
-        rolePt: "Mestrado",
-        roleEn: "MSc Candidate",
-        category: "msc",
-        projectPt: "Epidemiologia molecular e ensaios de suscetibilidade a antimicrobianos",
-        projectEn: "Molecular epidemiology and antimicrobial susceptibility testing",
-        skills: ["Epidemiologia", "MIC / REMA", "Bancada"],
-        initials: "AB",
-        image: "./img/alice_bispo.jpeg",
-        lattes: "#",
-        github: "https://github.com/LaPAM-USP",
-        email: "anamarcia@usp.br"
-      },
-      {
-        id: "caroline-silva",
-        name: "Caroline Silva",
-        nameEn: "Caroline Silva",
-        rolePt: "Mestrado",
-        roleEn: "MSc Candidate",
-        category: "msc",
-        projectPt: "Investigação molecular e mecanismos de persistência em Mycobacterium spp.",
-        projectEn: "Molecular investigation and persistence mechanisms in Mycobacterium spp.",
-        skills: ["Microbiologia", "Extração de DNA", "Bancada"],
-        initials: "CS",
-        image: "./img/caroline_silva.jpeg",
-        lattes: "#",
-        github: "https://github.com/LaPAM-USP",
-        email: "anamarcia@usp.br"
-      },
-      {
-        id: "fernando-falat",
-        name: "Fernando Falat",
-        nameEn: "Fernando Falat",
-        rolePt: "Mestrado",
-        roleEn: "MSc Candidate",
-        category: "msc",
-        projectPt: "Bioinformática aplicada, desenvolvimento de pipelines genômicos e epidemiologia computacional",
-        projectEn: "Applied bioinformatics, genomic pipeline development, and computational epidemiology",
-        skills: ["Bioinformática", "Python", "WGS", "BrSeqTB", "Linux"],
-        initials: "FF",
-        image: "./img/fernando_falat.jpeg",
-        lattes: "#",
-        github: "https://github.com/LaPAM-USP",
-        email: "anamarcia@usp.br"
-      },
-      {
-        id: "julia",
-        name: "Julia",
-        nameEn: "Julia",
-        rolePt: "Mestrado",
-        roleEn: "MSc Candidate",
-        category: "msc",
-        projectPt: "Caracterização fenotípica e molecular de micobactérias em modelos experimentais",
-        projectEn: "Phenotypic and molecular characterization of mycobacteria in experimental models",
-        skills: ["Bancada", "Cultivo", "NB-3"],
-        initials: "JL",
-        image: "./img/julia.jpeg",
-        lattes: "#",
-        github: "https://github.com/LaPAM-USP",
-        email: "anamarcia@usp.br"
-      },
-      {
-        id: "lucas",
-        name: "Lucas",
-        nameEn: "Lucas",
-        rolePt: "Mestrado",
-        roleEn: "MSc Candidate",
-        category: "msc",
-        projectPt: "Genômica comparativa e vigilância epidemiológica de isolados clínicos",
-        projectEn: "Comparative genomics and epidemiological surveillance of clinical isolates",
-        skills: ["Genômica", "Bioinformática", "Epidemiologia"],
-        initials: "LC",
-        image: "./img/lucas.jpeg",
-        lattes: "#",
-        github: "https://github.com/LaPAM-USP",
-        email: "anamarcia@usp.br"
-      },
-      {
-        id: "mia",
-        name: "Mia",
-        nameEn: "Mia",
-        rolePt: "Mestrado",
-        roleEn: "MSc Candidate",
-        category: "msc",
-        projectPt: "Diversidade molecular e suscetibilidade em micobactérias não-tuberculosas (MNT)",
-        projectEn: "Molecular diversity and susceptibility in non-tuberculous mycobacteria (NTM)",
-        skills: ["MNT", "Bancada", "Biologia Molecular"],
-        initials: "MA",
-        image: "./img/mia.jpeg",
-        lattes: "#",
-        github: "https://github.com/LaPAM-USP",
-        email: "anamarcia@usp.br"
-      }
-    ]
-  },
-
-  publications: [
-    {
-      title: "BrSeqTB: An open-source, automated whole-genome sequencing pipeline for drug-resistance surveillance in Mycobacterium tuberculosis",
-      authors: "LaPAM Team, Guimarães, A. M. S., et al.",
-      journal: "Microbial Genomics / In Preparation",
-      year: "2024",
-      tag: "BrSeqTB",
-      doi: "https://github.com/LaPAM-USP/BrSeqTB",
-    },
-    {
-      title: "Whole-genome sequencing reveals transmission dynamics and drug resistance mutations of Mycobacterium tuberculosis in Brazilian settings",
-      authors: "Guimarães, A. M. S., et al.",
-      journal: "Frontiers in Microbiology",
-      year: "2023",
-      tag: "Epidemiologia Genômica",
-      doi: "https://doi.org/10.3389/fmicb.2023",
-    },
-    {
-      title: "Molecular characterization and lineage distribution of Mycobacterium bovis isolates from cattle herds in Brazil",
-      authors: "Guimarães, A. M. S., et al.",
-      journal: "Veterinary Microbiology",
-      year: "2022",
-      tag: "Tuberculose Animal",
-      doi: "https://doi.org/10.1016/j.vetmic.2022",
-    },
-    {
-      title: "Comparative genomic analysis of non-tuberculous mycobacteria isolated from clinical specimens in São Paulo",
-      authors: "LaPAM Research Group",
-      journal: "Journal of Clinical Microbiology",
-      year: "2023",
-      tag: "MNT",
-      doi: "https://doi.org/10.1128/jcm",
-    }
-  ],
-
   // Updated as requested: BSL3, BSL2 for BCG (complete infrastructure), outsourced sequencing, computing
   facilities: [
     {

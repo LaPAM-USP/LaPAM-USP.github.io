@@ -193,6 +193,7 @@ export default function ContactSection({ lang }) {
                     <option value="Pós-Doutorado">Pós-Doutorado (FAPESP / CNPq)</option>
                     <option value="Iniciação Científica">Iniciação Científica (Graduação)</option>
                     <option value="Colaboração Científica / BrSeqTB">Colaboração Científica / BrSeqTB</option>
+                    <option value="MtbRx">MtbRx (Genomic Explorer)</option>
                     <option value="Outros">Outros</option>
                   </select>
                 </div>

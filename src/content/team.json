@@ -1,0 +1,160 @@
+{
+  "pi": {
+    "name": "Prof.ª Dra. Ana Marcia de Sá Guimarães",
+    "nameEn": "Prof. Ana Marcia de Sá Guimarães, PhD",
+    "rolePt": "Professora Associada / Coordenadora do LaPAM",
+    "roleEn": "Associate Professor / Head of LaPAM",
+    "institutionPt": "Departamento de Microbiologia, ICB II - Universidade de São Paulo",
+    "institutionEn": "Department of Microbiology, ICB II - University of São Paulo",
+    "bioPt": "Professora Associada da Universidade de São Paulo. Atua em pesquisa básica e aplicada em micobacteriologia, epidemiologia molecular, genômica bacteriana e resistência a antimicrobianos em Mycobacterium tuberculosis e micobactérias em animais. Coordena o desenvolvimento do pipeline BrSeqTB e lidera projetos com apoio da FAPESP, CNPq e agências parceiras.",
+    "bioEn": "Associate Professor at the University of São Paulo. Specializes in basic and applied research in mycobacteriology, molecular epidemiology, bacterial genomics, and antimicrobial resistance in Mycobacterium tuberculosis and animal mycobacteria. Coordinates the BrSeqTB pipeline development and leads research funded by FAPESP, CNPq, and international partners.",
+    "focusPt": "Epidemiologia Molecular, Genômica de Micobactérias, Resistência a Fármacos & Tuberculose Animal",
+    "focusEn": "Molecular Epidemiology, Mycobacterial Genomics, Drug Resistance & Animal Tuberculosis",
+    "photo": "/img/team/ana_marcia.jpeg",
+    "lattes": "http://lattes.cnpq.br/9934177267156947",
+    "orcid": "https://orcid.org/0000-0002-8261-5863",
+    "email": "anamarcia@usp.br"
+  },
+  "members": [
+    {
+      "name": "Kevim",
+      "role": "phd",
+      "alumni": false,
+      "projectPt": "Epidemiologia genômica e vigilância molecular de Mycobacterium tuberculosis e resistência a fármacos",
+      "projectEn": "Genomic epidemiology and molecular surveillance of Mycobacterium tuberculosis and drug resistance",
+      "skills": [
+        "Epidemiologia Genômica",
+        "WGS",
+        "Bioinformática",
+        "Filodinâmica"
+      ],
+      "photo": "/img/team/kevim.jpeg",
+      "lattes": "",
+      "github": "",
+      "orcid": "",
+      "email": ""
+    },
+    {
+      "name": "Agatha Morgana",
+      "role": "msc",
+      "alumni": false,
+      "projectPt": "Pesquisa experimental e caracterização biológica de isolados de micobactérias",
+      "projectEn": "Experimental research and biological characterization of mycobacterial isolates",
+      "skills": [
+        "Bancada",
+        "Microbiologia",
+        "Cultivo",
+        "NB-3"
+      ],
+      "photo": "/img/team/agatha_morgana.jpeg",
+      "lattes": "",
+      "github": "",
+      "orcid": "",
+      "email": ""
+    },
+    {
+      "name": "Alice Bispo",
+      "role": "msc",
+      "alumni": false,
+      "projectPt": "Epidemiologia molecular e ensaios de suscetibilidade a antimicrobianos",
+      "projectEn": "Molecular epidemiology and antimicrobial susceptibility testing",
+      "skills": [
+        "Epidemiologia",
+        "MIC / REMA",
+        "Bancada"
+      ],
+      "photo": "/img/team/alice_bispo.jpeg",
+      "lattes": "",
+      "github": "",
+      "orcid": "",
+      "email": ""
+    },
+    {
+      "name": "Caroline Silva",
+      "role": "msc",
+      "alumni": false,
+      "projectPt": "Investigação molecular e mecanismos de persistência em Mycobacterium spp.",
+      "projectEn": "Molecular investigation and persistence mechanisms in Mycobacterium spp.",
+      "skills": [
+        "Microbiologia",
+        "Extração de DNA",
+        "Bancada"
+      ],
+      "photo": "/img/team/caroline_silva.jpeg",
+      "lattes": "",
+      "github": "",
+      "orcid": "",
+      "email": ""
+    },
+    {
+      "name": "Fernando Falat",
+      "role": "msc",
+      "alumni": false,
+      "projectPt": "Bioinformática aplicada, desenvolvimento de pipelines genômicos e epidemiologia computacional",
+      "projectEn": "Applied bioinformatics, genomic pipeline development, and computational epidemiology",
+      "skills": [
+        "Bioinformática",
+        "Python",
+        "WGS",
+        "BrSeqTB",
+        "Linux"
+      ],
+      "photo": "/img/team/fernando_falat.jpeg",
+      "lattes": "",
+      "github": "",
+      "orcid": "",
+      "email": ""
+    },
+    {
+      "name": "Julia",
+      "role": "msc",
+      "alumni": false,
+      "projectPt": "Caracterização fenotípica e molecular de micobactérias em modelos experimentais",
+      "projectEn": "Phenotypic and molecular characterization of mycobacteria in experimental models",
+      "skills": [
+        "Bancada",
+        "Cultivo",
+        "NB-3"
+      ],
+      "photo": "/img/team/julia.jpeg",
+      "lattes": "",
+      "github": "",
+      "orcid": "",
+      "email": ""
+    },
+    {
+      "name": "Lucas",
+      "role": "msc",
+      "alumni": false,
+      "projectPt": "Genômica comparativa e vigilância epidemiológica de isolados clínicos",
+      "projectEn": "Comparative genomics and epidemiological surveillance of clinical isolates",
+      "skills": [
+        "Genômica",
+        "Bioinformática",
+        "Epidemiologia"
+      ],
+      "photo": "/img/team/lucas.jpeg",
+      "lattes": "",
+      "github": "",
+      "orcid": "",
+      "email": ""
+    },
+    {
+      "name": "Mia",
+      "role": "msc",
+      "alumni": false,
+      "projectPt": "Diversidade molecular e suscetibilidade em micobactérias não-tuberculosas (MNT)",
+      "projectEn": "Molecular diversity and susceptibility in non-tuberculous mycobacteria (NTM)",
+      "skills": [
+        "MNT",
+        "Bancada",
+        "Biologia Molecular"
+      ],
+      "photo": "/img/team/mia.jpeg",
+      "lattes": "",
+      "github": "",
+      "orcid": "",
+      "email": ""
+    }
+  ]
+}

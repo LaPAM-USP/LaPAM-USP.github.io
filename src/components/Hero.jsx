@@ -1,6 +1,7 @@
 import React from 'react';
 import { 
   Terminal, 
+  Microscope, 
   FlaskConical, 
   ChevronRight, 
   Users 
@@ -41,11 +42,11 @@ export default function Hero({ lang }) {
           <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
             {lang === 'pt' ? (
               <>
-                Pesquisa básica e aplicada em <i>Mycobacterium</i> spp., epidemiologia molecular da tuberculose e desenvolvimento do <strong>BrSeqTB</strong>, pipeline brasileiro de WGS para detecção de resistência a fármacos, epidemiologia, taxonomia e diagnóstico.
+                Pesquisa básica e aplicada em <i>Mycobacterium</i> spp., epidemiologia molecular da tuberculose e desenvolvimento do <strong>BrSeqTB</strong>, pipeline brasileiro de WGS para detecção de resistência a fármacos, e do <strong>MtbRx</strong>, explorador genômico do catálogo de mutações da OMS.
               </>
             ) : (
               <>
-                Basic and applied research on <i>Mycobacterium</i> spp., molecular epidemiology of tuberculosis, and home of <strong>BrSeqTB</strong>, Brazil's WGS pipeline for drug resistance detection, epidemiology, taxonomy, and diagnostics.
+                Basic and applied research on <i>Mycobacterium</i> spp., molecular epidemiology of tuberculosis, and home of <strong>BrSeqTB</strong>, Brazil's WGS pipeline for drug resistance detection, and <strong>MtbRx</strong>, a genomic explorer for the WHO mutation catalogue.
               </>
             )}
           </p>
@@ -60,6 +61,14 @@ export default function Hero({ lang }) {
             <Terminal className="w-4 h-4 text-teal-400" />
             <span>{lang === 'pt' ? 'Conhecer o BrSeqTB' : 'Explore BrSeqTB Pipeline'}</span>
             <ChevronRight className="w-4 h-4 text-slate-400" />
+          </a>
+
+          <a
+            href="#mtbrx"
+            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg font-semibold text-xs sm:text-sm text-teal-800 bg-teal-50 border border-teal-200 hover:bg-teal-100 transition-colors shadow-xs"
+          >
+            <Microscope className="w-4 h-4 text-teal-600" />
+            <span>{lang === 'pt' ? 'Explorar o MtbRx' : 'Try MtbRx'}</span>
           </a>
 
           <a

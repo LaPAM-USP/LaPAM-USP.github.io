@@ -1,0 +1,32 @@
+{
+  "featured": [
+    "https://periodicos.saude.sp.gov.br/RIAL/article/view/41306",
+    "10.1099/mgen.0.001646",
+    "10.1136/bmjopen-2025-098861"
+  ],
+  "hidden": [
+    "10.19061/iochem-bd-6-580",
+    "10.1590/1980-220x-reeusp-2025-0222es",
+    "http://www.repositorio.ufba.br/ri/handle/ri/5450"
+  ],
+  "edits": [
+    {
+      "id": "https://periodicos.saude.sp.gov.br/RIAL/article/view/41306",
+      "tag": "BrSeqTB",
+      "journal": "Revista do Instituto Adolfo Lutz"
+    },
+    {
+      "id": "https://periodicos.saude.sp.gov.br/RIAL/article/view/41351",
+      "journal": "Revista do Instituto Adolfo Lutz"
+    },
+    {
+      "id": "10.1099/mgen.0.001646",
+      "tag": "WGS"
+    },
+    {
+      "id": "10.1136/bmjopen-2025-098861",
+      "tag": "WGS"
+    }
+  ],
+  "extra": []
+}

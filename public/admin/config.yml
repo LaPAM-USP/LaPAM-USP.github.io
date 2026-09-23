@@ -1,0 +1,134 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+#
+# Content editor for the LaPAM site, served at https://lapam-usp.github.io/admin/
+# Every save commits to `main`, which triggers the GitHub Pages deploy (~1–2 min).
+
+app_title: LaPAM · Editor
+site_url: https://lapam-usp.github.io/
+logo_url: /img/LOGO%20LAPAM.png
+
+backend:
+  name: github
+  repo: LaPAM-USP/LaPAM-USP.github.io
+  branch: main
+  commit_messages:
+    update: "content: atualiza {{slug}} via CMS"
+    uploadMedia: "content: envia {{path}} via CMS"
+    deleteMedia: "content: remove {{path}} via CMS"
+
+media_folder: public/img/team
+public_folder: /img/team
+
+media_libraries:
+  default:
+    config:
+      max_file_size: 10000000
+      # Uploaded photos are converted to WebP and resized, so any phone photo works.
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 800
+          height: 800
+
+singletons:
+  - name: team
+    label: Equipe
+    file: src/content/team.json
+    format: json
+    fields:
+      - name: pi
+        label: Coordenadora (PI)
+        widget: object
+        collapsed: true
+        fields:
+          - { name: name, label: Nome (PT), widget: string }
+          - { name: nameEn, label: Nome (EN), widget: string }
+          - { name: rolePt, label: Cargo (PT), widget: string }
+          - { name: roleEn, label: Cargo (EN), widget: string }
+          - { name: institutionPt, label: Instituição (PT), widget: string }
+          - { name: institutionEn, label: Instituição (EN), widget: string }
+          - { name: bioPt, label: Biografia (PT), widget: text }
+          - { name: bioEn, label: Biografia (EN), widget: text }
+          - { name: focusPt, label: Foco de pesquisa (PT), widget: string }
+          - { name: focusEn, label: Foco de pesquisa (EN), widget: string }
+          - { name: photo, label: Foto, widget: image, required: false }
+          - { name: lattes, label: Lattes (URL), widget: string, required: false }
+          - { name: orcid, label: ORCID (URL), widget: string, required: false }
+          - { name: email, label: E-mail, widget: string, required: false }
+
+      - name: members
+        label: Membros
+        label_singular: Membro
+        widget: list
+        summary: "{{fields.name}} · {{fields.role}}{{fields.alumni | ternary(' · ex-membro', '')}}"
+        fields:
+          - { name: name, label: Nome, widget: string }
+          - name: role
+            label: Vínculo
+            widget: select
+            default: msc
+            options:
+              - { label: Pós-Doutorado, value: postdoc }
+              - { label: Doutorado, value: phd }
+              - { label: Mestrado, value: msc }
+              - { label: Iniciação Científica, value: undergrad }
+              - { label: Técnico(a), value: technician }
+              - { label: Colaborador(a), value: collaborator }
+          - name: alumni
+            label: Ex-membro
+            hint: Marque quando a pessoa sair do laboratório. Ela passa para a lista de ex-membros em vez de ser apagada.
+            widget: boolean
+            default: false
+          - { name: photo, label: Foto (opcional), widget: image, required: false }
+          - { name: projectPt, label: Projeto (PT), widget: text, required: false }
+          - { name: projectEn, label: Projeto (EN), widget: text, required: false }
+          - { name: skills, label: Áreas / habilidades, widget: list, required: false, hint: "Ex.: Bioinformática, WGS, NB-3" }
+          - { name: lattes, label: Lattes (URL), widget: string, required: false }
+          - { name: orcid, label: ORCID (URL), widget: string, required: false }
+          - { name: github, label: GitHub (URL), widget: string, required: false }
+          - { name: email, label: E-mail, widget: string, required: false }
+
+  - name: publications
+    label: Publicações
+    file: src/content/publications-overrides.json
+    format: json
+    fields:
+      - name: featured
+        label: Destaques (DOI ou link)
+        label_singular: Destaque
+        widget: list
+        required: false
+        hint: >-
+          A lista de publicações é importada automaticamente do ORCID/OpenAlex toda semana; aqui você só faz ajustes.
+          Identifique cada publicação pelo DOI (ex.: 10.1099/mgen.0.001646) ou, se não tiver DOI, pelo link.
+          Os destaques aparecem no topo da seção.
+      - name: hidden
+        label: Ocultar (DOI ou link)
+        label_singular: Publicação oculta
+        widget: list
+        required: false
+        hint: Para itens importados por engano ou duplicados.
+      - name: edits
+        label: Etiquetas e correções
+        label_singular: Correção
+        widget: list
+        required: false
+        summary: "{{fields.id}} · {{fields.tag}}"
+        fields:
+          - { name: id, label: DOI ou link, widget: string }
+          - { name: tag, label: Etiqueta, widget: string, required: false, hint: "Ex.: BrSeqTB, WGS, MNT" }
+          - { name: journal, label: Corrigir nome da revista, widget: string, required: false }
+      - name: extra
+        label: Publicações adicionais (manuais)
+        label_singular: Publicação
+        widget: list
+        required: false
+        summary: "{{fields.year}} · {{fields.title}}"
+        fields:
+          - { name: title, label: Título, widget: string }
+          - { name: authors, label: Autores, widget: string }
+          - { name: journal, label: Revista / veículo, widget: string, required: false }
+          - { name: year, label: Ano, widget: number, value_type: int }
+          - { name: url, label: Link, widget: string, required: false }
+          - { name: tag, label: Etiqueta, widget: string, required: false }

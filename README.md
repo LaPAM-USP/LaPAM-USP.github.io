@@ -40,15 +40,26 @@ npm run preview
 
 ---
 
-## 👥 Como Atualizar Fotos e Membros da Equipe
+## ✏️ Como Atualizar Equipe e Publicações (sem mexer em código)
 
-Todos os dados da equipe, PI, publicações e pipeline estão centralizados no arquivo [`src/data/labData.js`](src/data/labData.js):
+### Equipe → editor em [`/admin`](https://lapam-usp.github.io/admin/)
 
-1. **Fotos dos Membros**:
-   - Adicione os arquivos de imagem em `public/img/team/` (ex: `ana_marcia.jpg`, `doutorando1.jpg`).
-   - No arquivo `src/data/labData.js`, aponte a propriedade `image` para `./img/team/seu_arquivo.jpg`.
-2. **Nomes e Projetos**:
-   - Edite os campos `name`, `projectPt` / `projectEn`, `skills`, `lattes`, `email` etc.
+O site tem um editor de conteúdo ([Sveltia CMS](https://sveltiacms.app/)) em **https://lapam-usp.github.io/admin/**.
+
+1. Quem for editar precisa de uma conta no GitHub com permissão de escrita neste repositório.
+2. Em `/admin`, clique em **Sign In with Token** e siga o link para gerar um token (as permissões já vêm pré-selecionadas). O token fica salvo no navegador.
+3. Edite **Equipe**: adicione membros, envie fotos (qualquer foto é convertida para WebP e redimensionada automaticamente) ou marque **Ex-membro** quando alguém sair.
+4. Ao salvar, o editor faz um commit em `main` e o site é republicado em ~1–2 minutos.
+
+Os dados ficam em [`src/content/team.json`](src/content/team.json) e as fotos em `public/img/team/`.
+
+### Publicações → automáticas
+
+A lista é importada do **OpenAlex** pelo ORCID da coordenadora ([0000-0002-8261-5863](https://orcid.org/0000-0002-8261-5863)) a cada deploy e toda segunda-feira (ver [`scripts/fetch-publications.mjs`](scripts/fetch-publications.mjs)). Preprints, datasets e duplicatas são descartados automaticamente.
+
+Para destacar, ocultar, etiquetar ou adicionar manualmente uma publicação, use **Publicações** em `/admin` (arquivo [`src/content/publications-overrides.json`](src/content/publications-overrides.json)).
+
+Para atualizar localmente: `npm run fetch:pubs`.
 
 ---
 

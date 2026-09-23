@@ -3,6 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: ["main"]
+  # Weekly rebuild so new publications from ORCID/OpenAlex show up on their own.
+  schedule:
+    - cron: "0 9 * * 1"
   workflow_dispatch:
 
 permissions:
@@ -32,6 +35,9 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Refresh publications from OpenAlex
+        run: npm run fetch:pubs
 
       - name: Build
         run: npm run build
