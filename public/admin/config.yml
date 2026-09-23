@@ -11,6 +11,8 @@ backend:
   name: github
   repo: LaPAM-USP/LaPAM-USP.github.io
   branch: main
+  # Only personal access tokens: "Sign In with GitHub" needs an OAuth server we don't run.
+  auth_methods: [token]
   commit_messages:
     update: "content: atualiza {{slug}} via CMS"
     uploadMedia: "content: envia {{path}} via CMS"

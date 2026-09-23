@@ -47,7 +47,13 @@ npm run preview
 O site tem um editor de conteúdo ([Sveltia CMS](https://sveltiacms.app/)) em **https://lapam-usp.github.io/admin/**.
 
 1. Quem for editar precisa de uma conta no GitHub com permissão de escrita neste repositório.
-2. Em `/admin`, clique em **Sign In with Token** e siga o link para gerar um token (as permissões já vêm pré-selecionadas). O token fica salvo no navegador.
+2. Crie um token no **seu** GitHub: *Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token*
+   - **Resource owner:** `LaPAM-USP`
+   - **Repository access:** *Only select repositories* → `LaPAM-USP.github.io`
+   - **Permissions → Repository → Contents:** *Read and write*
+   - **Expiration:** a maior opção disponível (anote a data para renovar)
+   - Se o token ficar "pending", um owner da organização aprova em *LaPAM-USP → Settings → Personal access tokens*.
+   - Em `/admin`, clique em **Sign In with Token** e cole o token. Ele fica salvo apenas naquele navegador; use **Sign Out** em computadores compartilhados.
 3. Edite **Equipe**: adicione membros, envie fotos (qualquer foto é convertida para WebP e redimensionada automaticamente) ou marque **Ex-membro** quando alguém sair.
 4. Ao salvar, o editor faz um commit em `main` e o site é republicado em ~1–2 minutos.
 
