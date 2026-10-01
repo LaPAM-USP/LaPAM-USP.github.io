@@ -10,7 +10,7 @@ import {
 import { labData } from '../data/labData';
 
 export default function ResearchSection({ lang }) {
-  // Ordered as requested: Bancada, Bioinformática, Epidemiologia
+  // Ordered as requested: Bancada, Bioinformática, Epidemiologia, One Health
   const [activePillar, setActivePillar] = useState('wetlab');
 
   const getIcon = (id) => {
@@ -48,8 +48,8 @@ export default function ResearchSection({ lang }) {
 
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
             {lang === 'pt'
-              ? 'Bancada experimental em biossegurança NB-3 e NB-2, bioinformática avançada e epidemiologia molecular.'
-              : 'BSL-3 and BSL-2 wet lab research, advanced bioinformatics, and molecular epidemiology.'}
+              ? 'Bancada experimental em biossegurança NB-3 e NB-2, bioinformática avançada e epidemiologia.'
+              : 'BSL-3 and BSL-2 wet lab research, advanced bioinformatics, and epidemiology.'}
           </p>
         </div>
 

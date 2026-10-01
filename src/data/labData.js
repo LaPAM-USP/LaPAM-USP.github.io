@@ -41,8 +41,9 @@ export const labData = {
     ]
   },
 
-  mtbrx: {
-    title: "MtbRx",
+  // Formerly "MtbRx"; the app and repo URLs keep the old name.
+  tbatlas: {
+    title: "DR-TBAtlas",
     subtitlePt: "Explorador genômico de Mycobacterium tuberculosis que conecta dados genômicos à interpretação clínica de resistência, com base no catálogo de mutações da OMS (2023).",
     subtitleEn: "A Mycobacterium tuberculosis genomic explorer that bridges genomic data and clinical drug-resistance interpretation, built on the WHO mutation catalogue (2023).",
     appUrl: "https://mtbrx.onrender.com",
@@ -67,7 +68,7 @@ export const labData = {
     ]
   },
 
-  // Ordered as requested: Bancada, Bioinformática, Epidemiologia, Tuberculose Animal
+  // Ordered as requested: Bancada, Bioinformática, Epidemiologia, One Health
   researchPillars: [
     {
       id: "wetlab",
@@ -75,17 +76,19 @@ export const labData = {
       tagEn: "Wet Lab",
       titlePt: "Microbiologia Experimental",
       titleEn: "Experimental Microbiology",
-      descPt: "Cultivo, ensaios fenotípicos de suscetibilidade e caracterização biológica de isolados clínicos de Mycobacterium tuberculosis, BCG e micobactérias não-tuberculosas (MNT) em instalações NB-3 e NB-2.",
-      descEn: "Cultivation, phenotypic susceptibility assays, and biological characterization of clinical Mycobacterium tuberculosis isolates, BCG, and non-tuberculous mycobacteria (NTM) in BSL-3 and BSL-2 facilities.",
+      descPt: "Estudos da fisiologia, patogenicidade e resistência antimicrobiana do complexo Mycobacterium tuberculosis e de micobactérias não tuberculosas (MNT) em instalações NB-3 e NB-2.",
+      descEn: "Studies of the physiology, pathogenicity, and antimicrobial resistance of the Mycobacterium tuberculosis complex and non-tuberculous mycobacteria (NTM) in BSL-3 and BSL-2 facilities.",
       pointsPt: [
-        "Ensaios de Concentração Inibitória Mínima (MIC / REMA)",
         "Modelos de infecção de macrófagos e interação patógeno-hospedeiro",
-        "Extração e purificação de DNA/RNA de alta qualidade para sequenciamento genômico"
+        "Transcriptoma e genômica",
+        "Ensaios de suscetibilidade antimicrobiana e avaliação de mecanismos de resistência e persistência",
+        "Homeostase de metais em micobactérias"
       ],
       pointsEn: [
-        "Minimum Inhibitory Concentration (MIC / REMA) assays",
         "Macrophage infection models and host-pathogen interactions",
-        "High-purity DNA and RNA extraction protocols for genomic sequencing"
+        "Transcriptomics and genomics",
+        "Antimicrobial susceptibility assays and assessment of resistance and persistence mechanisms",
+        "Metal homeostasis in mycobacteria"
       ]
     },
     {
@@ -94,15 +97,19 @@ export const labData = {
       tagEn: "Bioinformatics",
       titlePt: "Bioinformática",
       titleEn: "Bioinformatics",
-      descPt: "Desenvolvimento e aplicação de ferramentas computacionais para processamento de genoma completo (WGS), predição de resistência a fármacos, taxonomia molecular e genômica comparativa.",
-      descEn: "Development and application of computational tools for whole-genome sequencing (WGS) processing, drug resistance prediction, molecular taxonomy, and comparative genomics.",
+      descPt: "Desenvolvimento e aplicação de ferramentas computacionais para genoma completo (WGS), como o pipeline BrSeqTB e o DR-TBAtlas, explorador genômico do catálogo de mutações da OMS, além de predição de resistência a fármacos, predição de transmissão e genômica comparativa.",
+      descEn: "Development and application of computational tools for whole-genome sequencing (WGS), such as the BrSeqTB pipeline and DR-TBAtlas, a genomic explorer for the WHO mutation catalogue, along with drug resistance prediction, transmission prediction, and comparative genomics.",
       pointsPt: [
         "Desenvolvimento do pipeline BrSeqTB para automação de WGS",
+        "DR-TBAtlas: interpretação clínica de mutações de resistência com base no catálogo da OMS",
+        "Predição de transmissão de tuberculose a partir de genomas",
         "Taxonomia molecular e genômica comparativa de linhagens prevalentes",
         "Análise de variantes genéticas e mutações de resistência a antimicrobianos"
       ],
       pointsEn: [
         "Development of the BrSeqTB pipeline for automated WGS analysis",
+        "DR-TBAtlas: clinical interpretation of resistance mutations based on the WHO catalogue",
+        "Genome-based prediction of tuberculosis transmission",
         "Molecular taxonomy and comparative genomics of endemic lineages",
         "Variant calling and antimicrobial resistance mutation profiling"
       ]
@@ -113,41 +120,48 @@ export const labData = {
       tagEn: "Epidemiology",
       titlePt: "Epidemiologia & Vigilância",
       titleEn: "Epidemiology & Surveillance",
-      descPt: "Investigação da dinâmica de transmissão, filodinâmica e distribuição espaço-temporal de linhagens de Mycobacterium tuberculosis e micobactérias em cenários epidemiológicos.",
-      descEn: "Investigation of transmission dynamics, phylodynamics, and spatio-temporal distribution of Mycobacterium tuberculosis and other mycobacteria in epidemiological settings.",
+      descPt: "Vigilância da tuberculose e de cepas resistentes, com foco em populações vulneráveis, como a população em situação de rua, e na análise de bancos de dados de notificação integrados a dados moleculares.",
+      descEn: "Surveillance of tuberculosis and drug-resistant strains, focusing on vulnerable populations such as people experiencing homelessness and on the analysis of notification databases integrated with molecular data.",
       pointsPt: [
-        "Rastreamento de cadeias de transmissão e identificação de clusters recentes",
+        "Epidemiologia da tuberculose na população em situação de rua",
+        "Análise de bancos de dados de notificação da tuberculose",
         "Vigilância genômica e molecular de cepas multidroga-resistentes (MDR e XDR-TB)",
         "Integração de dados moleculares com registros epidemiológicos de saúde pública"
       ],
       pointsEn: [
-        "Transmission chain tracking and recent cluster identification",
+        "Tuberculosis epidemiology among people experiencing homelessness",
+        "Analysis of tuberculosis notification databases",
         "Genomic and molecular surveillance of multidrug-resistant strains (MDR/XDR-TB)",
         "Integration of molecular data with public health epidemiological registries"
       ]
     },
     {
       id: "animaltb",
-      tagPt: "Tuberculose Animal",
-      tagEn: "Animal Tuberculosis",
-      titlePt: "Tuberculose em Animais",
-      titleEn: "Animal Tuberculosis",
-      descPt: "Diagnóstico molecular, genômica e epidemiologia da tuberculose em diferentes espécies de animais, incluindo bovinos, caninos, animais domésticos e fauna silvestre.",
-      descEn: "Molecular diagnostics, genomics, and epidemiology of tuberculosis across various animal species, including cattle, canines, domestic animals, and wildlife.",
+      tagPt: "Saúde Única",
+      tagEn: "One Health",
+      titlePt: "One Health",
+      titleEn: "One Health",
+      descPt: "Diagnóstico molecular, genômica e epidemiologia da tuberculose em diferentes espécies de animais, incluindo bovinos e animais selvagens.",
+      descEn: "Molecular diagnostics, genomics, and epidemiology of tuberculosis across animal species, including cattle and wildlife.",
       pointsPt: [
-        "Caracterização genômica e diagnóstico de isolados em bovinos, cães e outros animais",
-        "Investigação de transmissão entre espécies e dinâmica de infecção",
-        "Suporte a estudos de vigilância e saúde única (One Health)"
+        "Caracterização genômica e diagnóstico de isolados em animais",
+        "Epidemiologia da tuberculose em animais selvagens e da tuberculose zoonótica",
+        "Suscetibilidade da anta (Tapirus spp.) à tuberculose",
+        "Tuberculose no contexto de saúde única (One Health)"
       ],
       pointsEn: [
-        "Genomic characterization and diagnostics of isolates from cattle, dogs, and other animals",
-        "Investigation of cross-species transmission and infection dynamics",
-        "Support for surveillance studies and One Health approaches"
+        "Genomic characterization and diagnostics of animal isolates",
+        "Epidemiology of tuberculosis in wildlife and of zoonotic tuberculosis",
+        "Susceptibility of tapirs (Tapirus spp.) to tuberculosis",
+        "Tuberculosis in a One Health context"
       ]
     }
   ],
 
-  // Team section: PI + Kevim (PhD) + 7 Master's students
+  // Official name of the BSL-3 lab, shown under the "Estrutura & Equipamentos" heading.
+  nb3NamePt: "Laboratório NB-3 Prof. Dr. Klaus Eberhard Stewien",
+  nb3NameEn: "Prof. Dr. Klaus Eberhard Stewien BSL-3 Laboratory",
+
   // Updated as requested: BSL3, BSL2 for BCG (complete infrastructure), outsourced sequencing, computing
   facilities: [
     {

@@ -20,141 +20,73 @@
       "name": "Kevim",
       "role": "phd",
       "alumni": false,
-      "projectPt": "Epidemiologia genômica e vigilância molecular de Mycobacterium tuberculosis e resistência a fármacos",
-      "projectEn": "Genomic epidemiology and molecular surveillance of Mycobacterium tuberculosis and drug resistance",
-      "skills": [
-        "Epidemiologia Genômica",
-        "WGS",
-        "Bioinformática",
-        "Filodinâmica"
+      "areas": [
+        "wetlab"
       ],
-      "photo": "/img/team/kevim.jpeg",
-      "lattes": "",
-      "github": "",
-      "orcid": "",
-      "email": ""
+      "photo": "/img/team/kevim.jpeg"
     },
     {
       "name": "Agatha Morgana",
       "role": "msc",
       "alumni": false,
-      "projectPt": "Pesquisa experimental e caracterização biológica de isolados de micobactérias",
-      "projectEn": "Experimental research and biological characterization of mycobacterial isolates",
-      "skills": [
-        "Bancada",
-        "Microbiologia",
-        "Cultivo",
-        "NB-3"
+      "areas": [
+        "wetlab"
       ],
-      "photo": "/img/team/agatha_morgana.jpeg",
-      "lattes": "",
-      "github": "",
-      "orcid": "",
-      "email": ""
+      "photo": "/img/team/agatha_morgana.jpeg"
     },
     {
       "name": "Alice Bispo",
       "role": "msc",
       "alumni": false,
-      "projectPt": "Epidemiologia molecular e ensaios de suscetibilidade a antimicrobianos",
-      "projectEn": "Molecular epidemiology and antimicrobial susceptibility testing",
-      "skills": [
-        "Epidemiologia",
-        "MIC / REMA",
-        "Bancada"
+      "areas": [
+        "wetlab"
       ],
-      "photo": "/img/team/alice_bispo.jpeg",
-      "lattes": "",
-      "github": "",
-      "orcid": "",
-      "email": ""
+      "photo": "/img/team/alice_bispo.jpeg"
     },
     {
       "name": "Caroline Silva",
       "role": "msc",
       "alumni": false,
-      "projectPt": "Investigação molecular e mecanismos de persistência em Mycobacterium spp.",
-      "projectEn": "Molecular investigation and persistence mechanisms in Mycobacterium spp.",
-      "skills": [
-        "Microbiologia",
-        "Extração de DNA",
-        "Bancada"
+      "areas": [
+        "wetlab"
       ],
-      "photo": "/img/team/caroline_silva.jpeg",
-      "lattes": "",
-      "github": "",
-      "orcid": "",
-      "email": ""
+      "photo": "/img/team/caroline_silva.jpeg"
     },
     {
       "name": "Fernando Falat",
       "role": "msc",
       "alumni": false,
-      "projectPt": "Bioinformática aplicada, desenvolvimento de pipelines genômicos e epidemiologia computacional",
-      "projectEn": "Applied bioinformatics, genomic pipeline development, and computational epidemiology",
-      "skills": [
-        "Bioinformática",
-        "Python",
-        "WGS",
-        "BrSeqTB",
-        "Linux"
+      "areas": [
+        "bioinformatics"
       ],
-      "photo": "/img/team/fernando_falat.jpeg",
-      "lattes": "",
-      "github": "",
-      "orcid": "",
-      "email": ""
+      "photo": "/img/team/fernando_falat.jpeg"
     },
     {
       "name": "Julia",
       "role": "msc",
       "alumni": false,
-      "projectPt": "Caracterização fenotípica e molecular de micobactérias em modelos experimentais",
-      "projectEn": "Phenotypic and molecular characterization of mycobacteria in experimental models",
-      "skills": [
-        "Bancada",
-        "Cultivo",
-        "NB-3"
+      "areas": [
+        "wetlab"
       ],
-      "photo": "/img/team/julia.jpeg",
-      "lattes": "",
-      "github": "",
-      "orcid": "",
-      "email": ""
+      "photo": "/img/team/julia.jpeg"
     },
     {
       "name": "Lucas",
       "role": "msc",
       "alumni": false,
-      "projectPt": "Genômica comparativa e vigilância epidemiológica de isolados clínicos",
-      "projectEn": "Comparative genomics and epidemiological surveillance of clinical isolates",
-      "skills": [
-        "Genômica",
-        "Bioinformática",
-        "Epidemiologia"
+      "areas": [
+        "epidemiology"
       ],
-      "photo": "/img/team/lucas.jpeg",
-      "lattes": "",
-      "github": "",
-      "orcid": "",
-      "email": ""
+      "photo": "/img/team/lucas.jpeg"
     },
     {
       "name": "Mia",
       "role": "msc",
       "alumni": false,
-      "projectPt": "Diversidade molecular e suscetibilidade em micobactérias não-tuberculosas (MNT)",
-      "projectEn": "Molecular diversity and susceptibility in non-tuberculous mycobacteria (NTM)",
-      "skills": [
-        "MNT",
-        "Bancada",
-        "Biologia Molecular"
+      "areas": [
+        "wetlab"
       ],
-      "photo": "/img/team/mia.jpeg",
-      "lattes": "",
-      "github": "",
-      "orcid": "",
-      "email": ""
+      "photo": "/img/team/mia.jpeg"
     }
   ]
 }

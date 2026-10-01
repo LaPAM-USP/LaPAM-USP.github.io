@@ -14,7 +14,9 @@ backend:
   # Only personal access tokens: "Sign In with GitHub" needs an OAuth server we don't run.
   auth_methods: [token]
   commit_messages:
+    create: "content: cria {{slug}} via CMS"
     update: "content: atualiza {{slug}} via CMS"
+    delete: "content: remove {{slug}} via CMS"
     uploadMedia: "content: envia {{path}} via CMS"
     deleteMedia: "content: remove {{path}} via CMS"
 
@@ -63,6 +65,9 @@ singletons:
         label: Membros
         label_singular: Membro
         widget: list
+        hint: >-
+          Quem concluiu o vínculo: marque "Ex-membro" (vai para a lista de ex-membros).
+          Quem saiu no meio e não deve aparecer no site: apague o membro da lista (botão de remover do item).
         summary: "{{fields.name}} · {{fields.role}}{{fields.alumni | ternary(' · ex-membro', '')}}"
         fields:
           - { name: name, label: Nome, widget: string }
@@ -79,17 +84,21 @@ singletons:
               - { label: Colaborador(a), value: collaborator }
           - name: alumni
             label: Ex-membro
-            hint: Marque quando a pessoa sair do laboratório. Ela passa para a lista de ex-membros em vez de ser apagada.
+            hint: Marque quando a pessoa concluir o vínculo. Ela passa para a lista de ex-membros (alumni). Para quem saiu no meio, apague o membro em vez de marcar.
             widget: boolean
             default: false
+          - name: areas
+            label: Áreas
+            hint: Aparecem como etiquetas no card e servem de filtro. Pode marcar mais de uma.
+            widget: select
+            multiple: true
+            required: false
+            options:
+              - { label: Laboratório, value: wetlab }
+              - { label: Bioinformática, value: bioinformatics }
+              - { label: Epidemiologia, value: epidemiology }
+              - { label: One Health, value: onehealth }
           - { name: photo, label: Foto (opcional), widget: image, required: false }
-          - { name: projectPt, label: Projeto (PT), widget: text, required: false }
-          - { name: projectEn, label: Projeto (EN), widget: text, required: false }
-          - { name: skills, label: Áreas / habilidades, widget: list, required: false, hint: "Ex.: Bioinformática, WGS, NB-3" }
-          - { name: lattes, label: Lattes (URL), widget: string, required: false }
-          - { name: orcid, label: ORCID (URL), widget: string, required: false }
-          - { name: github, label: GitHub (URL), widget: string, required: false }
-          - { name: email, label: E-mail, widget: string, required: false }
 
   - name: publications
     label: Publicações
@@ -106,11 +115,14 @@ singletons:
           Identifique cada publicação pelo DOI (ex.: 10.1099/mgen.0.001646) ou, se não tiver DOI, pelo link.
           Os destaques aparecem no topo da seção.
       - name: hidden
-        label: Ocultar (DOI ou link)
-        label_singular: Publicação oculta
+        label: Remover publicações (DOI ou link)
+        label_singular: Publicação removida
         widget: list
         required: false
-        hint: Para itens importados por engano ou duplicados.
+        hint: >-
+          Publicações importadas automaticamente não podem ser apagadas na fonte; adicione aqui o DOI (ou link) para removê-las do site.
+          O DOI aparece no link "DOI" de cada publicação no site. Para desfazer, apague o item desta lista.
+          Publicações adicionadas manualmente (abaixo) são apagadas direto na lista delas.
       - name: edits
         label: Etiquetas e correções
         label_singular: Correção
@@ -134,3 +146,38 @@ singletons:
           - { name: year, label: Ano, widget: number, value_type: int }
           - { name: url, label: Link, widget: string, required: false }
           - { name: tag, label: Etiqueta, widget: string, required: false }
+
+collections:
+  - name: news
+    label: Notícias
+    label_singular: Notícia
+    description: Premiações, chamadas, eventos e outras novidades. As mais recentes aparecem primeiro no site.
+    folder: src/content/news
+    extension: json
+    format: json
+    create: true
+    delete: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    identifier_field: title
+    summary: "{{date | date('YYYY-MM-DD')}} · {{title}}"
+    sortable_fields: [date, title]
+    media_folder: /public/img/news
+    public_folder: /img/news
+    fields:
+      - { name: title, label: Título, widget: string }
+      - { name: titleEn, label: "Título (EN, opcional)", widget: string, required: false }
+      - { name: date, label: Data, widget: datetime, time_format: false, date_format: DD/MM/YYYY, format: YYYY-MM-DD }
+      - name: category
+        label: Categoria
+        widget: select
+        default: news
+        options:
+          - { label: Premiação, value: award }
+          - { label: Chamada, value: call }
+          - { label: Publicação, value: publication }
+          - { label: Evento, value: event }
+          - { label: Notícia, value: news }
+      - { name: image, label: Imagem (opcional), widget: image, required: false }
+      - { name: body, label: Texto, widget: markdown, required: false }
+      - { name: bodyEn, label: "Texto (EN, opcional)", widget: markdown, required: false }
+      - { name: link, label: Link externo (opcional), widget: string, required: false, hint: "Ex.: página do edital, matéria ou artigo" }

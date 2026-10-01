@@ -49,10 +49,10 @@ export default function Footer({ lang }) {
               </li>
               <li>
                 <a
-                  href="#mtbrx"
+                  href="#tbatlas"
                   className="hover:text-teal-700 transition-colors"
                 >
-                  MtbRx Genomic Explorer
+                  DR-TBAtlas Genomic Explorer
                 </a>
               </li>
               <li>

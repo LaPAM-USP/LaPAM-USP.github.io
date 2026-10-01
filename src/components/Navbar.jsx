@@ -7,6 +7,7 @@ import {
 } from 'lucide-react';
 import { GithubIcon } from './Icons';
 import { labData } from '../data/labData';
+import { news } from '../data/content';
 
 export default function Navbar({ lang, setLang }) {
   const [scrolled, setScrolled] = useState(false);
@@ -22,13 +23,14 @@ export default function Navbar({ lang, setLang }) {
 
   const navLinks = [
     { id: 'brseqtb', labelPt: 'BrSeqTB', labelEn: 'BrSeqTB', highlight: true },
-    { id: 'mtbrx', labelPt: 'MtbRx', labelEn: 'MtbRx', highlight: true },
+    { id: 'tbatlas', labelPt: 'DR-TBAtlas', labelEn: 'DR-TBAtlas', highlight: true },
     { id: 'research', labelPt: 'Pesquisa', labelEn: 'Research' },
     { id: 'team', labelPt: 'Equipe', labelEn: 'Team' },
     { id: 'facilities', labelPt: 'Estrutura', labelEn: 'Facilities' },
+    news.length > 0 && { id: 'news', labelPt: 'Notícias', labelEn: 'News' },
     { id: 'publications', labelPt: 'Publicações', labelEn: 'Publications' },
     { id: 'contact', labelPt: 'Contato', labelEn: 'Contact' },
-  ];
+  ].filter(Boolean);
 
   return (
     <header
@@ -45,7 +47,7 @@ export default function Navbar({ lang, setLang }) {
           <img
             src="./img/LOGO%20LAPAM.png"
             alt="LaPAM Logo"
-            className="h-11 sm:h-12 w-auto object-contain transition-transform group-hover:scale-105"
+            className="h-14 sm:h-16 w-auto object-contain transition-transform group-hover:scale-105"
           />
           <div className="flex flex-col justify-center">
             <span className="font-extrabold text-xl tracking-tight text-slate-900 leading-none">

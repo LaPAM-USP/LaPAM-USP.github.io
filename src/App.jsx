@@ -3,10 +3,11 @@ import BioCanvas from './components/BioCanvas';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import BrSeqTBSection from './components/BrSeqTBSection';
-import MtbRxSection from './components/MtbRxSection';
+import TBAtlasSection from './components/TBAtlasSection';
 import ResearchSection from './components/ResearchSection';
 import TeamSection from './components/TeamSection';
 import FacilitiesSection from './components/FacilitiesSection';
+import NewsSection from './components/NewsSection';
 import PublicationsSection from './components/PublicationsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
@@ -56,7 +57,7 @@ export default function App() {
             lang={lang}
           />
 
-          <MtbRxSection
+          <TBAtlasSection
             lang={lang}
           />
 
@@ -69,6 +70,10 @@ export default function App() {
           />
 
           <FacilitiesSection
+            lang={lang}
+          />
+
+          <NewsSection
             lang={lang}
           />
 
