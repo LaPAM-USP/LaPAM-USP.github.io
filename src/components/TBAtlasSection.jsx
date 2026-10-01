@@ -10,11 +10,11 @@ import {
 import { GithubIcon } from './Icons';
 import { labData } from '../data/labData';
 
-export default function MtbRxSection({ lang }) {
-  const data = labData.mtbrx;
+export default function TBAtlasSection({ lang }) {
+  const data = labData.tbatlas;
 
   return (
-    <section id="mtbrx" className="py-16 bg-white border-b border-slate-200/80">
+    <section id="tbatlas" className="py-16 bg-white border-b border-slate-200/80">
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -26,7 +26,7 @@ export default function MtbRxSection({ lang }) {
           </div>
 
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">
-            MtbRx
+            {data.title}
           </h2>
 
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
@@ -64,7 +64,7 @@ export default function MtbRxSection({ lang }) {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg text-sm font-semibold text-slate-900 bg-teal-400 hover:bg-teal-300 transition-colors"
             >
-              <span>{lang === 'pt' ? 'Abrir o MtbRx' : 'Launch MtbRx'}</span>
+              <span>{lang === 'pt' ? `Abrir o ${data.title}` : `Launch ${data.title}`}</span>
               <ExternalLink className="w-4 h-4" />
             </a>
 

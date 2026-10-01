@@ -41,9 +41,7 @@ export default function FacilitiesSection({ lang }) {
           </h2>
 
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-            {lang === 'pt'
-              ? 'Infraestrutura completa de biossegurança no ICB II - USP, sequenciamento em centros parceiros e computação dedicada.'
-              : 'Complete biosafety infrastructure at ICB II - USP, outsourced genomic sequencing partnerships, and dedicated computing.'}
+            {lang === 'pt' ? labData.nb3NamePt : labData.nb3NameEn}
           </p>
         </div>
 

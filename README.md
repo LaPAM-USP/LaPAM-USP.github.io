@@ -54,16 +54,20 @@ O site tem um editor de conteúdo ([Sveltia CMS](https://sveltiacms.app/)) em **
    - **Expiration:** a maior opção disponível (anote a data para renovar)
    - Se o token ficar "pending", um owner da organização aprova em *LaPAM-USP → Settings → Personal access tokens*.
    - Em `/admin`, clique em **Sign In with Token** e cole o token. Ele fica salvo apenas naquele navegador; use **Sign Out** em computadores compartilhados.
-3. Edite **Equipe**: adicione membros, envie fotos (qualquer foto é convertida para WebP e redimensionada automaticamente) ou marque **Ex-membro** quando alguém sair.
+3. Edite **Equipe**: adicione membros com nome, foto (qualquer foto é convertida para WebP e redimensionada automaticamente) e uma ou mais **Áreas** (Laboratório, Bioinformática, Epidemiologia, One Health). Quem concluiu o vínculo: marque **Ex-membro** (vai para a lista de alumni). Quem saiu no meio: apague o membro da lista.
 4. Ao salvar, o editor faz um commit em `main` e o site é republicado em ~1–2 minutos.
 
 Os dados ficam em [`src/content/team.json`](src/content/team.json) e as fotos em `public/img/team/`.
+
+### Notícias → `/admin` → **Notícias**
+
+Premiações, chamadas, eventos etc. Cada notícia tem título, data, categoria, imagem e texto (com negrito, links e listas); as versões em inglês são opcionais. Ficam em [`src/content/news/`](src/content/news/) (imagens em `public/img/news/`). A seção só aparece no site quando existe pelo menos uma notícia.
 
 ### Publicações → automáticas
 
 A lista é importada do **OpenAlex** pelo ORCID da coordenadora ([0000-0002-8261-5863](https://orcid.org/0000-0002-8261-5863)) a cada deploy e toda segunda-feira (ver [`scripts/fetch-publications.mjs`](scripts/fetch-publications.mjs)). Preprints, datasets e duplicatas são descartados automaticamente.
 
-Para destacar, ocultar, etiquetar ou adicionar manualmente uma publicação, use **Publicações** em `/admin` (arquivo [`src/content/publications-overrides.json`](src/content/publications-overrides.json)).
+Para destacar, remover, etiquetar ou adicionar manualmente uma publicação, use **Publicações** em `/admin` (arquivo [`src/content/publications-overrides.json`](src/content/publications-overrides.json)).
 
 Para atualizar localmente: `npm run fetch:pubs`.
 

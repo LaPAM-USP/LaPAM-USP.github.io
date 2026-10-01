@@ -27,3 +27,7 @@ const all = [
 
 export const publications = all;
 export const publicationsUpdatedAt = generated.updatedAt;
+
+// News posts: one JSON file per post in src/content/news/, newest first.
+export const news = Object.values(import.meta.glob('../content/news/*.json', { eager: true, import: 'default' }))
+  .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
