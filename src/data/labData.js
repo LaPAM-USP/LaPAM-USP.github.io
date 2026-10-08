@@ -41,12 +41,12 @@ export const labData = {
     ]
   },
 
-  // Formerly "MtbRx"; the app and repo URLs keep the old name.
+  // Formerly "MtbRx"; the repo URL keeps the old name.
   tbatlas: {
     title: "DR-TBAtlas",
     subtitlePt: "Explorador genômico de Mycobacterium tuberculosis que conecta dados genômicos à interpretação clínica de resistência, com base no catálogo de mutações da OMS (2023).",
     subtitleEn: "A Mycobacterium tuberculosis genomic explorer that bridges genomic data and clinical drug-resistance interpretation, built on the WHO mutation catalogue (2023).",
-    appUrl: "https://mtbrx.onrender.com",
+    appUrl: "https://dr-tb-atlas.onrender.com/",
     repoUrl: "https://github.com/LaPAM-USP/mtbrx",
     doiUrl: "https://doi.org/10.5281/zenodo.21035590",
     exampleQueries: ["katG_Ser315Thr", "rpoB", "Rv0677c"],
