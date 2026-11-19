@@ -17,7 +17,7 @@
   },
   "members": [
     {
-      "name": "Kevim",
+      "name": "Kevim Guterres",
       "role": "phd",
       "alumni": false,
       "areas": [
@@ -28,7 +28,7 @@
     {
       "name": "Agatha Morgana",
       "role": "msc",
-      "alumni": false,
+      "alumni": true,
       "areas": [
         "wetlab"
       ],
@@ -37,20 +37,11 @@
     {
       "name": "Alice Bispo",
       "role": "msc",
-      "alumni": false,
+      "alumni": true,
       "areas": [
         "wetlab"
       ],
       "photo": "/img/team/alice_bispo.jpeg"
-    },
-    {
-      "name": "Caroline Silva",
-      "role": "msc",
-      "alumni": false,
-      "areas": [
-        "wetlab"
-      ],
-      "photo": "/img/team/caroline_silva.jpeg"
     },
     {
       "name": "Fernando Falat",
@@ -62,29 +53,22 @@
       "photo": "/img/team/fernando_falat.jpeg"
     },
     {
-      "name": "Julia",
+      "name": "Lucas Pires",
       "role": "msc",
       "alumni": false,
       "areas": [
-        "wetlab"
-      ],
-      "photo": "/img/team/julia.jpeg"
-    },
-    {
-      "name": "Lucas",
-      "role": "msc",
-      "alumni": false,
-      "areas": [
-        "epidemiology"
+        "epidemiology",
+        "onehealth"
       ],
       "photo": "/img/team/lucas.jpeg"
     },
     {
-      "name": "Mia",
+      "name": "Mia Veltmann",
       "role": "msc",
       "alumni": false,
       "areas": [
-        "wetlab"
+        "wetlab",
+        "bioinformatics"
       ],
       "photo": "/img/team/mia.jpeg"
     }
